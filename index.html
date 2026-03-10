@@ -1,42 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>English → Greek</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English → Greek Dictionary</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f7f7f7;
+    }
 
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
+    h1 {
+      font-size: 22px;
+      margin: 0 0 16px 0;
+    }
 
-<style>
-body{
-  font-family: Arial;
-  padding:20px;
-}
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
 
-input{
-  width:100%;
-  padding:10px;
-  margin-bottom:10px;
-}
+    .tab {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #e4e4e4;
+      cursor: pointer;
+      font-size: 14px;
+    }
 
-.card{
-  border:1px solid #ddd;
-  border-radius:10px;
-  padding:10px;
-  margin-bottom:10px;
-}
-</style>
+    .tab.active {
+      background: #222;
+      color: white;
+    }
 
+    .panel {
+      display: none;
+    }
+
+    .panel.active {
+      display: block;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 10px;
+      background: white;
+    }
+
+    .muted {
+      color: #666;
+      font-size: 13px;
+    }
+
+    .big {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .row button {
+      margin-bottom: 0;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
 </head>
-
 <body>
+  <h1>English → Greek</h1>
 
-<h2>English → Greek</h2>
+  <div class="tabs">
+    <button class="tab active" data-tab="dictionary">Dictionary</button>
+    <button class="tab" data-tab="training">Training</button>
+    <button class="tab" data-tab="stats">Stats</button>
+  </div>
 
-<input id="search" placeholder="search">
+  <div id="dictionary" class="panel active">
+    <input id="search" placeholder="Search English or Greek" />
 
-<div id="list"></div>
+    <select id="levelFilter">
+      <option value="ALL">All levels</option>
+      <option value="A1">A1</option>
+      <option value="A2">A2</option>
+      <option value="B1">B1</option>
+    </select>
 
-<script src="app.js"></script>
+    <select id="typeFilter">
+      <option value="ALL">All types</option>
+      <option value="noun">noun</option>
+      <option value="verb">verb</option>
+      <option value="adjective">adjective</option>
+      <option value="adverb">adverb</option>
+      <option value="pronoun">pronoun</option>
+      <option value="preposition">preposition</option>
+    </select>
 
+    <div id="list"></div>
+  </div>
+
+  <div id="training" class="panel">
+    <select id="trainLevel">
+      <option value="ALL">All levels</option>
+      <option value="A1">A1</option>
+      <option value="A2">A2</option>
+      <option value="B1">B1</option>
+    </select>
+
+    <select id="trainMode">
+      <option value="en-gr">English → Greek</option>
+      <option value="gr-en">Greek → English</option>
+    </select>
+
+    <button id="startTraining">Start training</button>
+
+    <div id="trainingCard" class="card hidden">
+      <div class="muted">Translate:</div>
+      <div id="question" class="big"></div>
+
+      <button id="showAnswer">Show answer</button>
+
+      <div id="answerBlock" class="hidden">
+        <div class="card">
+          <div id="answer"></div>
+        </div>
+
+        <div class="row">
+          <button id="dontKnow">I don't know</button>
+          <button id="know">I know</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="stats" class="panel">
+    <div class="card">
+      <div>Total answers: <b id="statTotal">0</b></div>
+      <div>Known: <b id="statKnown">0</b></div>
+      <div>Unknown: <b id="statUnknown">0</b></div>
+      <div>Known rate: <b id="statRate">0%</b></div>
+    </div>
+
+    <div class="card">
+      <div><b>Hard words</b></div>
+      <div id="hardWords" class="muted">No data yet</div>
+    </div>
+
+    <button id="resetStats">Reset stats</button>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>

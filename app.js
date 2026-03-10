@@ -1,4 +1,10 @@
 let words = [];
+let currentTrainingSet = [];
+let currentWord = null;
+
+const statsKey = "dictionary_stats_v1";
+
+let stats = loadStats();
 
 fetch("./words.json")
   .then(r => {
@@ -7,40 +13,204 @@ fetch("./words.json")
   })
   .then(data => {
     words = data;
-    render(words);
-    console.log("Loaded words:", words.length);
+    renderDictionary();
+    renderStats();
   })
   .catch(err => {
     console.error("Ошибка загрузки words.json:", err);
     document.getElementById("list").innerHTML =
-      `<div class="card">Ошибка загрузки words.json: ${err.message}</div>`;
+      `<div class="card">Error loading words.json: ${err.message}</div>`;
   });
 
-function render(data) {
+function loadStats() {
+  try {
+    const raw = localStorage.getItem(statsKey);
+    if (!raw) {
+      return {
+        total: 0,
+        known: 0,
+        unknown: 0,
+        hardWords: {}
+      };
+    }
+    return JSON.parse(raw);
+  } catch {
+    return {
+      total: 0,
+      known: 0,
+      unknown: 0,
+      hardWords: {}
+    };
+  }
+}
+
+function saveStats() {
+  localStorage.setItem(statsKey, JSON.stringify(stats));
+}
+
+function switchTab(tabName) {
+  document.querySelectorAll(".tab").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.tab === tabName);
+  });
+
+  document.querySelectorAll(".panel").forEach(panel => {
+    panel.classList.toggle("active", panel.id === tabName);
+  });
+
+  if (tabName === "stats") {
+    renderStats();
+  }
+}
+
+document.querySelectorAll(".tab").forEach(btn => {
+  btn.addEventListener("click", () => switchTab(btn.dataset.tab));
+});
+
+function getFilteredDictionaryWords() {
+  const q = document.getElementById("search").value.toLowerCase().trim();
+  const level = document.getElementById("levelFilter").value;
+  const type = document.getElementById("typeFilter").value;
+
+  return words.filter(w => {
+    const matchesQuery =
+      String(w.english).toLowerCase().includes(q) ||
+      String(w.greek).toLowerCase().includes(q);
+
+    const matchesLevel = level === "ALL" ? true : w.level === level;
+    const matchesType = type === "ALL" ? true : w.type === type;
+
+    return matchesQuery && matchesLevel && matchesType;
+  });
+}
+
+function renderDictionary() {
   const list = document.getElementById("list");
   list.innerHTML = "";
 
-  data.forEach(w => {
+  const filtered = getFilteredDictionaryWords();
+
+  if (filtered.length === 0) {
+    list.innerHTML = `<div class="card">No words found</div>`;
+    return;
+  }
+
+  filtered.forEach(w => {
     const div = document.createElement("div");
     div.className = "card";
 
     div.innerHTML = `
-      <b>${w.english}</b><br>
-      ${w.greek}<br>
-      ${w.level} • ${w.type}
+      <div><b>${escapeHtml(w.english)}</b></div>
+      <div>${escapeHtml(w.greek)}</div>
+      <div class="muted">${escapeHtml(w.level)} • ${escapeHtml(w.type || "")}</div>
     `;
 
     list.appendChild(div);
   });
 }
 
-document.getElementById("search").addEventListener("input", e => {
-  const q = e.target.value.toLowerCase().trim();
+document.getElementById("search").addEventListener("input", renderDictionary);
+document.getElementById("levelFilter").addEventListener("change", renderDictionary);
+document.getElementById("typeFilter").addEventListener("change", renderDictionary);
 
-  const filtered = words.filter(w =>
-    String(w.english).toLowerCase().includes(q) ||
-    String(w.greek).toLowerCase().includes(q)
-  );
+document.getElementById("startTraining").addEventListener("click", () => {
+  const level = document.getElementById("trainLevel").value;
 
-  render(filtered);
+  currentTrainingSet = words.filter(w => {
+    return level === "ALL" ? true : w.level === level;
+  });
+
+  if (currentTrainingSet.length === 0) {
+    alert("No words for this level");
+    return;
+  }
+
+  document.getElementById("trainingCard").classList.remove("hidden");
+  nextTrainingWord();
 });
+
+function nextTrainingWord() {
+  const mode = document.getElementById("trainMode").value;
+  const randomIndex = Math.floor(Math.random() * currentTrainingSet.length);
+  currentWord = currentTrainingSet[randomIndex];
+
+  document.getElementById("answerBlock").classList.add("hidden");
+
+  if (mode === "en-gr") {
+    document.getElementById("question").textContent = currentWord.english;
+    document.getElementById("answer").textContent = `${currentWord.greek} (${currentWord.level} • ${currentWord.type})`;
+  } else {
+    document.getElementById("question").textContent = currentWord.greek;
+    document.getElementById("answer").textContent = `${currentWord.english} (${currentWord.level} • ${currentWord.type})`;
+  }
+}
+
+document.getElementById("showAnswer").addEventListener("click", () => {
+  document.getElementById("answerBlock").classList.remove("hidden");
+});
+
+document.getElementById("know").addEventListener("click", () => {
+  stats.total += 1;
+  stats.known += 1;
+  saveStats();
+  renderStats();
+  nextTrainingWord();
+});
+
+document.getElementById("dontKnow").addEventListener("click", () => {
+  stats.total += 1;
+  stats.unknown += 1;
+
+  const key = `${currentWord.english} — ${currentWord.greek}`;
+  stats.hardWords[key] = (stats.hardWords[key] || 0) + 1;
+
+  saveStats();
+  renderStats();
+  nextTrainingWord();
+});
+
+function renderStats() {
+  document.getElementById("statTotal").textContent = stats.total;
+  document.getElementById("statKnown").textContent = stats.known;
+  document.getElementById("statUnknown").textContent = stats.unknown;
+
+  const rate = stats.total === 0
+    ? 0
+    : Math.round((stats.known / stats.total) * 100);
+
+  document.getElementById("statRate").textContent = `${rate}%`;
+
+  const hardWords = Object.entries(stats.hardWords)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20);
+
+  const container = document.getElementById("hardWords");
+
+  if (hardWords.length === 0) {
+    container.textContent = "No data yet";
+    return;
+  }
+
+  container.innerHTML = hardWords
+    .map(([word, count]) => `${escapeHtml(word)} — ${count}`)
+    .join("<br>");
+}
+
+document.getElementById("resetStats").addEventListener("click", () => {
+  stats = {
+    total: 0,
+    known: 0,
+    unknown: 0,
+    hardWords: {}
+  };
+  saveStats();
+  renderStats();
+});
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
