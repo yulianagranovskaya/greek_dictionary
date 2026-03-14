@@ -1,8 +1,12 @@
 let words = [];
 let currentTrainingSet = [];
 let currentWord = null;
+let dictionaryVisibleCount = 100;
 
 const statsKey = "dictionary_stats_v1";
+const tg = window.Telegram.WebApp;
+tg.ready();
+tg.expand();
 
 let stats = loadStats();
 
@@ -12,14 +16,12 @@ fetch("./words.json")
     return r.json();
   })
   .then(data => {
-    words = data;
+    words = data;   // весь словарь
     renderDictionary();
     renderStats();
   })
   .catch(err => {
     console.error("Ошибка загрузки words.json:", err);
-    document.getElementById("list").innerHTML =
-      `<div class="card">Error loading words.json: ${err.message}</div>`;
   });
 
 function loadStats() {
@@ -83,17 +85,14 @@ function getFilteredDictionaryWords() {
   });
 }
 
-function renderDictionary() {
+function renderDictionary(reset = true) {
   const list = document.getElementById("list");
   const q = document.getElementById("search").value.toLowerCase().trim();
   const level = document.getElementById("levelFilter").value;
   const type = document.getElementById("typeFilter").value;
 
-  list.innerHTML = "";
-
-  if (!q && level === "ALL" && type === "ALL") {
-    list.innerHTML = `<div class="card">Enter a search word or choose filters</div>`;
-    return;
+  if (reset) {
+    dictionaryVisibleCount = 100;
   }
 
   const allFiltered = words.filter(w => {
@@ -107,7 +106,9 @@ function renderDictionary() {
     return matchesQuery && matchesLevel && matchesType;
   });
 
-  const filtered = allFiltered.slice(0, 100);
+  const filtered = allFiltered.slice(0, dictionaryVisibleCount);
+
+  list.innerHTML = "";
 
   if (allFiltered.length === 0) {
     list.innerHTML = `<div class="card">No words found</div>`;
@@ -116,7 +117,7 @@ function renderDictionary() {
 
   const info = document.createElement("div");
   info.className = "card";
-  info.textContent = `Found: ${allFiltered.length}. Showing first ${filtered.length}.`;
+  info.textContent = `Found: ${allFiltered.length}. Showing ${filtered.length}.`;
   list.appendChild(info);
 
   const fragment = document.createDocumentFragment();
@@ -135,11 +136,21 @@ function renderDictionary() {
   });
 
   list.appendChild(fragment);
+
+  if (dictionaryVisibleCount < allFiltered.length) {
+    const moreBtn = document.createElement("button");
+    moreBtn.textContent = "Load more";
+    moreBtn.addEventListener("click", () => {
+      dictionaryVisibleCount += 100;
+      renderDictionary(false);
+    });
+    list.appendChild(moreBtn);
+  }
 }
 
-document.getElementById("search").addEventListener("input", renderDictionary);
-document.getElementById("levelFilter").addEventListener("change", renderDictionary);
-document.getElementById("typeFilter").addEventListener("change", renderDictionary);
+document.getElementById("search").addEventListener("input", () => renderDictionary(true));
+document.getElementById("levelFilter").addEventListener("change", () => renderDictionary(true));
+document.getElementById("typeFilter").addEventListener("change", () => renderDictionary(true));
 
 document.getElementById("startTraining").addEventListener("click", () => {
   const level = document.getElementById("trainLevel").value;
