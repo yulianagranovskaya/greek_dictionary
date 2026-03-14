@@ -85,14 +85,41 @@ function getFilteredDictionaryWords() {
 
 function renderDictionary() {
   const list = document.getElementById("list");
+  const q = document.getElementById("search").value.toLowerCase().trim();
+  const level = document.getElementById("levelFilter").value;
+  const type = document.getElementById("typeFilter").value;
+
   list.innerHTML = "";
 
-  const filtered = getFilteredDictionaryWords();
+  if (!q && level === "ALL" && type === "ALL") {
+    list.innerHTML = `<div class="card">Enter a search word or choose filters</div>`;
+    return;
+  }
 
-  if (filtered.length === 0) {
+  const allFiltered = words.filter(w => {
+    const matchesQuery =
+      String(w.english).toLowerCase().includes(q) ||
+      String(w.greek).toLowerCase().includes(q);
+
+    const matchesLevel = level === "ALL" ? true : w.level === level;
+    const matchesType = type === "ALL" ? true : w.type === type;
+
+    return matchesQuery && matchesLevel && matchesType;
+  });
+
+  const filtered = allFiltered.slice(0, 100);
+
+  if (allFiltered.length === 0) {
     list.innerHTML = `<div class="card">No words found</div>`;
     return;
   }
+
+  const info = document.createElement("div");
+  info.className = "card";
+  info.textContent = `Found: ${allFiltered.length}. Showing first ${filtered.length}.`;
+  list.appendChild(info);
+
+  const fragment = document.createDocumentFragment();
 
   filtered.forEach(w => {
     const div = document.createElement("div");
@@ -104,8 +131,10 @@ function renderDictionary() {
       <div class="muted">${escapeHtml(w.level)} • ${escapeHtml(w.type || "")}</div>
     `;
 
-    list.appendChild(div);
+    fragment.appendChild(div);
   });
+
+  list.appendChild(fragment);
 }
 
 document.getElementById("search").addEventListener("input", renderDictionary);
