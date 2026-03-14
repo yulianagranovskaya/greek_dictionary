@@ -143,13 +143,16 @@ document.getElementById("typeFilter").addEventListener("change", renderDictionar
 
 document.getElementById("startTraining").addEventListener("click", () => {
   const level = document.getElementById("trainLevel").value;
+  const type = document.getElementById("trainType").value;
 
   currentTrainingSet = words.filter(w => {
-    return level === "ALL" ? true : w.level === level;
+    const matchesLevel = level === "ALL" ? true : w.level === level;
+    const matchesType = type === "ALL" ? true : w.type === type;
+    return matchesLevel && matchesType;
   });
 
   if (currentTrainingSet.length === 0) {
-    alert("No words for this level");
+    alert("No words for selected filters");
     return;
   }
 
