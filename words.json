@@ -303,7 +303,7 @@
     "english": "even, more",
     "level": "A1",
     "greek": "ακόμη",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "accordion",
@@ -327,7 +327,7 @@
     "english": "exactly, precisely (Στις 10 ακριβώς!) (At ten o’clock) sharp!",
     "level": "A1",
     "greek": "ακριβώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "listening",
@@ -423,7 +423,7 @@
     "english": "but",
     "level": "A1",
     "greek": "αλλά",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "change",
@@ -441,7 +441,7 @@
     "english": "otherwise, differently, or else",
     "level": "A1",
     "greek": "αλλιώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "other, another, else",
@@ -483,7 +483,7 @@
     "english": "immediately, right away",
     "level": "A1",
     "greek": "αμέσως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "vineyard",
@@ -501,7 +501,7 @@
     "english": "if",
     "level": "A1",
     "greek": "αν",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "to light, to fire",
@@ -645,7 +645,7 @@
     "english": "open",
     "level": "A1",
     "greek": "ανοιχτά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "contest, competition",
@@ -765,7 +765,7 @@
     "english": "simply",
     "level": "A1",
     "greek": "απλά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "simple",
@@ -777,7 +777,7 @@
     "english": "from, since",
     "level": "A1",
     "greek": "από",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "afternoon, evening",
@@ -855,10 +855,10 @@
     "english": "late",
     "level": "A1",
     "greek": "αργά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
-    "english": "to be late (μου)",
+    "english": "to be late",
     "level": "A1",
     "greek": "αργώ",
     "type": "verb"
@@ -1035,7 +1035,7 @@
     "english": "badly",
     "level": "A1",
     "greek": "άσχημα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "ugly",
@@ -1227,7 +1227,7 @@
     "english": "deeply",
     "level": "A1",
     "greek": "βαθιά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "grade",
@@ -1263,7 +1263,7 @@
     "english": "heavily",
     "level": "A1",
     "greek": "βαριά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "heavy",
@@ -1341,7 +1341,7 @@
     "english": "of course, certainly",
     "level": "A1",
     "greek": "βέβαια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Belgium",
@@ -1524,7 +1524,7 @@
     "type": "noun"
   },
   {
-    "english": "night",
+    "english": "night/evening (as event)",
     "level": "A1",
     "greek": "βραδιά, η",
     "type": "noun"
@@ -1677,7 +1677,7 @@
     "english": "Hi! / Hello!",
     "level": "A1",
     "greek": "Γεια!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "neightbour",
@@ -1815,7 +1815,7 @@
     "english": "why",
     "level": "A1",
     "greek": "γιατί",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "doctor",
@@ -1851,7 +1851,7 @@
     "english": "grey",
     "level": "A1",
     "greek": "γκρι",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "grumbling",
@@ -1995,7 +1995,7 @@
     "english": "quickly",
     "level": "A1",
     "greek": "γρήγορα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Gregory",
@@ -2181,7 +2181,7 @@
     "english": "right",
     "level": "A1",
     "greek": "δεξιά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Monday",
@@ -2271,7 +2271,7 @@
     "english": "diagonally",
     "level": "A1",
     "greek": "διαγώνια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "test",
@@ -2280,7 +2280,7 @@
     "type": "noun"
   },
   {
-    "english": "internet [see also",
+    "english": "internet",
     "level": "A1",
     "greek": "διαδίκτυο, το",
     "type": "noun"
@@ -2288,7 +2288,7 @@
   {
     "english": "way, path, route",
     "level": "A1",
-    "greek": "ίντερνετ] διαδρομή, η",
+    "greek": "διαδρομή, η",
     "type": "noun"
   },
   {
@@ -2349,7 +2349,7 @@
     "english": "constantly",
     "level": "A1",
     "greek": "διαρκώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to have fun, to enoy myself",
@@ -2372,7 +2372,7 @@
   {
     "english": "difference",
     "level": "A1",
-    "greek": "αγγελία] διαφορά, η",
+    "greek": "διαφορά, η",
     "type": "noun"
   },
   {
@@ -2385,7 +2385,7 @@
     "english": "differently",
     "level": "A1",
     "greek": "διαφορετικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "fees",
@@ -2535,7 +2535,7 @@
     "english": "strongly",
     "level": "A1",
     "greek": "δυνατά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "two",
@@ -2565,7 +2565,7 @@
     "english": "unfortunately",
     "level": "A1",
     "greek": "δυστυχώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "twelve",
@@ -2607,7 +2607,7 @@
     "english": "here",
     "level": "A1",
     "greek": "εδώ",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "picture, image",
@@ -2637,7 +2637,7 @@
     "english": "there",
     "level": "A1",
     "greek": "εκεί",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "that",
@@ -2763,7 +2763,7 @@
     "english": "also, too, as well",
     "level": "A1",
     "greek": "επίσης",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "visit",
@@ -2793,7 +2793,7 @@
     "english": "it is allowed",
     "level": "A1",
     "greek": "επιτρέπεται",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "to allow",
@@ -2967,7 +2967,7 @@
     "english": "Thanks! / Thank you!",
     "level": "A1",
     "greek": "Ευχαριστώ!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "wish",
@@ -2990,14 +2990,14 @@
   {
     "english": "tax collection agency",
     "level": "A1",
-    "greek": "εφορία",
+    "greek": "εφορία, η",
     "type": "noun"
   },
   {
     "english": "since",
     "level": "A1",
     "greek": "εφόσον",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "seven",
@@ -3164,13 +3164,13 @@
   {
     "english": "day",
     "level": "A1",
-    "greek": "ημέρα",
+    "greek": "μέρα, η",
     "type": "noun"
   },
   {
     "english": "calendar",
     "level": "A1",
-    "greek": "μέρα] ημερολόγιο, το",
+    "greek": "(μέρα) ημερολόγιο, το",
     "type": "noun"
   },
   {
@@ -3182,7 +3182,7 @@
   {
     "english": "Hercules",
     "level": "A1",
-    "greek": "Ηρακλής",
+    "greek": "Ηρακλής, ο",
     "type": "noun"
   },
   {
@@ -3201,12 +3201,6 @@
     "english": "sound",
     "level": "A1",
     "greek": "ήχος, ο",
-    "type": "noun"
-  },
-  {
-    "english": "will, going to",
-    "level": "A1",
-    "greek": "θα",
     "type": "noun"
   },
   {
@@ -3447,7 +3441,7 @@
     "english": "maybe, perhaps",
     "level": "A1",
     "greek": "ίσως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Italy",
@@ -3483,19 +3477,19 @@
     "english": "every",
     "level": "A1",
     "greek": "κάθε",
-    "type": "noun"
+    "type": "pronoun"
   },
   {
     "english": "every, everyone",
     "level": "A1",
     "greek": "καθένας, καθεμία/καθεμιά, καθένα",
-    "type": "noun"
+    "type": "pronoun"
   },
   {
     "english": "across",
     "level": "A1",
     "greek": "κάθετα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "teacher",
@@ -3507,7 +3501,7 @@
     "english": "any, at all",
     "level": "A1",
     "greek": "καθόλου",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to sit",
@@ -3531,19 +3525,19 @@
     "english": "while",
     "level": "A1",
     "greek": "καθώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "and",
     "level": "A1",
     "greek": "και",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "new",
     "level": "A1",
-    "greek": "καινούριος, ιο",
-    "type": "noun"
+    "greek": "καινούριος, -α -ο",
+    "type": "adjective"
   },
   {
     "english": "weather",
@@ -3555,7 +3549,7 @@
     "english": "What’s the weather like?",
     "level": "A1",
     "greek": "Τι καιρό κάνει;",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "bad",
@@ -3813,7 +3807,7 @@
     "english": "down",
     "level": "A1",
     "greek": "κάτω",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "under",
@@ -4041,7 +4035,7 @@
     "english": "close",
     "level": "A1",
     "greek": "κοντά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "short",
@@ -4064,8 +4058,8 @@
   {
     "english": "Corean",
     "level": "A1",
-    "greek": "Κορεάτης, -ισσα",
-    "type": "adjective"
+    "greek": "Κορεάτης, -ισσα, ο/ι",
+    "type": "noun"
   },
   {
     "english": "Corean",
@@ -4196,14 +4190,14 @@
   {
     "english": "Crete (Τι)",
     "level": "A1",
-    "greek": "Κρήτη",
+    "greek": "Κρήτη, η",
     "type": "noun"
   },
   {
     "english": "What a pity!",
     "level": "A1",
     "greek": "κρίμα!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to udge",
@@ -4214,7 +4208,7 @@
   {
     "english": "Croatia",
     "level": "A1",
-    "greek": "Κροατία",
+    "greek": "Κροατία, η",
     "type": "noun"
   },
   {
@@ -4521,13 +4515,13 @@
     "english": "gather",
     "level": "A1",
     "greek": "μαζεύω",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "together",
     "level": "A1",
     "greek": "μαζί",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to learn",
@@ -4550,7 +4544,7 @@
   {
     "english": "Mathematics/Maths",
     "level": "A1",
-    "greek": "Μαθηματικά",
+    "greek": "Μαθηματικά, τα",
     "type": "noun"
   },
   {
@@ -4568,14 +4562,14 @@
   {
     "english": "macaroni, spaghetti, pasta",
     "level": "A1",
-    "greek": "μακαρόνια",
+    "greek": "μακαρόνια, η",
     "type": "noun"
   },
   {
     "english": "far, away",
     "level": "A1",
     "greek": "μακριά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "long",
@@ -4593,7 +4587,7 @@
     "english": "maybe, perhaps",
     "level": "A1",
     "greek": "μάλλον",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "grocer",
@@ -4719,12 +4713,12 @@
     "english": "(to stay) indoors",
     "level": "A1",
     "greek": "μέσα (μένω μέσα στο σπίτι)",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "in",
     "level": "A1",
-    "greek": "μέσασε",
+    "greek": "μέσα σε",
     "type": "preposition"
   },
   {
@@ -4761,7 +4755,7 @@
     "english": "after, afterwards",
     "level": "A1",
     "greek": "μετά",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "to translate",
@@ -4797,7 +4791,7 @@
     "english": "till, until, to",
     "level": "A1",
     "greek": "μέχρι",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "zero",
@@ -4875,7 +4869,7 @@
     "english": "purple",
     "level": "A1",
     "greek": "μοβ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "to look like",
@@ -4890,10 +4884,10 @@
     "type": "verb"
   },
   {
-    "english": "ust",
+    "english": "just",
     "level": "A1",
     "greek": "μόλις",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "pencil",
@@ -4905,7 +4899,7 @@
     "english": "permanently",
     "level": "A1",
     "greek": "μόνιμα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "permanent",
@@ -5043,7 +5037,7 @@
     "english": "beige",
     "level": "A1",
     "greek": "μπεζ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "beer",
@@ -5061,7 +5055,7 @@
     "english": "blue",
     "level": "A1",
     "greek": "μπλε",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "blouse",
@@ -5073,7 +5067,7 @@
     "english": "can",
     "level": "A1",
     "greek": "μπορώ",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "bottle",
@@ -5091,7 +5085,7 @@
     "english": "Well done!",
     "level": "A1",
     "greek": "Μπράβο!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "stake",
@@ -5109,7 +5103,7 @@
     "english": "ahead, in front of",
     "level": "A1",
     "greek": "μπροστά",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "mind",
@@ -5144,7 +5138,7 @@
   {
     "english": "yes",
     "level": "A1",
-    "greek": "Ν,ν ναι",
+    "greek": "ναι",
     "type": "noun"
   },
   {
@@ -5313,7 +5307,7 @@
     "english": "early",
     "level": "A1",
     "greek": "νωρίς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "cousin",
@@ -5325,7 +5319,7 @@
     "english": "again",
     "level": "A1",
     "greek": "ξανά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "blond",
@@ -5379,7 +5373,7 @@
     "english": "separately",
     "level": "A1",
     "greek": "ξεχωριστά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to spend",
@@ -5541,7 +5535,7 @@
     "english": "but, however",
     "level": "A1",
     "greek": "όμως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "dream",
@@ -5577,25 +5571,25 @@
     "english": "anyone, any",
     "level": "A1",
     "greek": "οποιοσδήποτε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "whenever",
     "level": "A1",
     "greek": "όποτε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "where, wherever",
     "level": "A1",
     "greek": "όπου",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "like, as",
     "level": "A1",
     "greek": "όπως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "rectangle",
@@ -5607,7 +5601,7 @@
     "english": "Here you are!",
     "level": "A1",
     "greek": "Ορίστε!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "floor",
@@ -5616,10 +5610,10 @@
     "type": "noun"
   },
   {
-    "english": "when",
+    "english": "when (preposition)",
     "level": "A1",
     "greek": "όταν",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "Hungary",
@@ -5733,7 +5727,7 @@
     "english": "again",
     "level": "A1",
     "greek": "πάλι",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "old",
@@ -5769,7 +5763,7 @@
     "english": "always",
     "level": "A1",
     "greek": "πάντα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "trousers",
@@ -5805,13 +5799,13 @@
     "english": "up",
     "level": "A1",
     "greek": "πάνω",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "on, onto",
     "level": "A1",
     "greek": "πάνω σε",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "shoe",
@@ -5856,16 +5850,16 @@
     "type": "noun"
   },
   {
-    "english": "to please (Σε/Σας)",
+    "english": "to please",
     "level": "A1",
-    "greek": "παρακαλώ",
+    "greek": " (Σε/Σας) παρακαλώ ",
     "type": "verb"
   },
   {
     "english": "Please!",
     "level": "A1",
     "greek": "παρακαλώ!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "below",
@@ -6135,7 +6129,7 @@
     "english": "anymore",
     "level": "A1",
     "greek": "πια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "piano",
@@ -6165,7 +6159,7 @@
     "english": "probably, possibly",
     "level": "A1",
     "greek": "πιθανώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "blackboard",
@@ -6183,7 +6177,7 @@
     "english": "more",
     "level": "A1",
     "greek": "πιο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "pepper",
@@ -6225,7 +6219,7 @@
     "english": "behind",
     "level": "A1",
     "greek": "πίσω",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "pyamas",
@@ -6243,7 +6237,7 @@
     "english": "beside",
     "level": "A1",
     "greek": "πλάι",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "square",
@@ -6339,7 +6333,7 @@
     "english": "much",
     "level": "A1",
     "greek": "πολύ",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "armchair",
@@ -6363,7 +6357,7 @@
     "english": "much",
     "level": "A1",
     "greek": "πολύς, πολλή, πολύ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "to hurt, to feel pain, to be in pain",
@@ -6447,13 +6441,13 @@
     "english": "never",
     "level": "A1",
     "greek": "ποτέ",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "when",
     "level": "A1",
     "greek": "πότε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "glass",
@@ -6465,7 +6459,7 @@
     "english": "water",
     "level": "A1",
     "greek": "ποτίζω",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "drink",
@@ -6477,13 +6471,13 @@
     "english": "who, that, which",
     "level": "A1",
     "greek": "που",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "where",
     "level": "A1",
     "greek": "πού",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "shirt",
@@ -6518,14 +6512,14 @@
   {
     "english": "green",
     "level": "A1",
-    "greek": "πράσινο",
+    "greek": "πράσινο, το",
     "type": "noun"
   },
   {
     "english": "I/you/he... must",
     "level": "A1",
     "greek": "πρέπει",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "before",
@@ -6579,13 +6573,13 @@
     "english": "to, towards",
     "level": "A1",
     "greek": "προς",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "carefully",
     "level": "A1",
     "greek": "προσεκτικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to pay attention to",
@@ -6675,7 +6669,7 @@
     "english": "firstly",
     "level": "A1",
     "greek": "πρώτα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "First of May",
@@ -6717,13 +6711,13 @@
     "english": "how",
     "level": "A1",
     "greek": "πώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "What’s your name?",
     "level": "A1",
     "greek": "Πώς σε λένε;",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "radio",
@@ -6753,7 +6747,7 @@
     "english": "pink",
     "level": "A1",
     "greek": "ροζ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "clock",
@@ -6861,7 +6855,7 @@
     "english": "like",
     "level": "A1",
     "greek": "σαν",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "sandwich",
@@ -6897,7 +6891,7 @@
     "english": "at, to",
     "level": "A1",
     "greek": "σε",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "order",
@@ -6975,13 +6969,13 @@
     "english": "today",
     "level": "A1",
     "greek": "σήμερα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "surely, certainly",
     "level": "A1",
     "greek": "σίγουρα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "sure, certain",
@@ -7106,7 +7100,7 @@
   {
     "english": "spaghetti",
     "level": "A1",
-    "greek": "σπαγγέτι",
+    "greek": "σπαγγέτι, to",
     "type": "noun"
   },
   {
@@ -7209,7 +7203,7 @@
     "english": "Sorry! / Excuse me!",
     "level": "A1",
     "greek": "Συγ(γ)νώμη!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "apology",
@@ -7293,7 +7287,7 @@
     "english": "according to",
     "level": "A1",
     "greek": "σύμφωνα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "consonant",
@@ -7353,7 +7347,7 @@
     "english": "usually",
     "level": "A1",
     "greek": "συνήθως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "cloud",
@@ -7365,7 +7359,7 @@
     "english": "in total",
     "level": "A1",
     "greek": "συνολικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "recipe",
@@ -7377,7 +7371,7 @@
     "english": "soon",
     "level": "A1",
     "greek": "σύντομα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "brief, short",
@@ -7419,7 +7413,7 @@
     "english": "often",
     "level": "A1",
     "greek": "συχνά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to mop",
@@ -7464,7 +7458,7 @@
     "type": "noun"
   },
   {
-    "english": "body (ένα)",
+    "english": "body ",
     "level": "A1",
     "greek": "σώμα, το",
     "type": "noun"
@@ -7503,7 +7497,7 @@
     "english": "regularly",
     "level": "A1",
     "greek": "τακτικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "talent",
@@ -7566,10 +7560,10 @@
     "type": "noun"
   },
   {
-    "english": "at the same time, simul- taneously",
+    "english": "at the same time, simultaneously",
     "level": "A1",
     "greek": "ταυτόχρονα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "post office",
@@ -7581,7 +7575,7 @@
     "english": "perfect",
     "level": "A1",
     "greek": "τέλεια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "fullstop",
@@ -7683,7 +7677,7 @@
     "english": "(for) free",
     "level": "A1",
     "greek": "τζάμπα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "eans",
@@ -7725,7 +7719,7 @@
     "english": "what",
     "level": "A1",
     "greek": "τι",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "price",
@@ -7743,7 +7737,7 @@
     "english": "nothing",
     "level": "A1",
     "greek": "τίποτα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "title",
@@ -7779,13 +7773,13 @@
     "english": "that much, as...as",
     "level": "A1",
     "greek": "τόσο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "then",
     "level": "A1",
     "greek": "τότε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "toilete",
@@ -7899,7 +7893,7 @@
     "english": "run",
     "level": "A1",
     "greek": "τρέχω",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "three",
@@ -8019,7 +8013,7 @@
     "english": "now",
     "level": "A1",
     "greek": "τώρα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "health",
@@ -8133,7 +8127,7 @@
     "english": "later",
     "level": "A1",
     "greek": "ύστερα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "height",
@@ -8439,7 +8433,7 @@
     "english": "Of course!",
     "level": "A1",
     "greek": "Φυσικά!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "natural",
@@ -8511,7 +8505,7 @@
     "english": "in a bad condition, in a mess",
     "level": "A1",
     "greek": "χάλια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Chalkidiki",
@@ -8565,7 +8559,7 @@
     "english": "Nice to meet you!",
     "level": "A1",
     "greek": "Χάρηκα που σας γνώρισα!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "happy",
@@ -8727,7 +8721,7 @@
     "english": "How old are you?",
     "level": "A1",
     "greek": "Πόσων χρονών είσαι;",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "colour",
@@ -8745,7 +8739,7 @@
     "english": "yesterday",
     "level": "A1",
     "greek": "χτες",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to hurt, to hit",
@@ -8835,7 +8829,7 @@
     "english": "high",
     "level": "A1",
     "greek": "ψηλά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "tall, high",
@@ -8901,7 +8895,7 @@
     "english": "nice",
     "level": "A1",
     "greek": "ωραία",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "schedule, working hours",
@@ -8913,19 +8907,19 @@
     "english": "until, till",
     "level": "A1",
     "greek": "ως",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "in order to, so that",
     "level": "A1",
     "greek": "ώστε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "however",
     "level": "A1",
     "greek": "ωστόσο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "pure, clean",
@@ -9027,13 +9021,13 @@
     "english": "really, truly",
     "level": "A2",
     "greek": "αληθινά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "He is risen indeed!",
     "level": "A2",
     "greek": "Αληθώς Ανέστη!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "almond",
@@ -9063,13 +9057,13 @@
     "english": "depending on, accordingly",
     "level": "A2",
     "greek": "ανάλογα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "comfortably",
     "level": "A2",
     "greek": "αναπαυτικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "breath, breathing",
@@ -9165,13 +9159,13 @@
     "english": "from inside/outside",
     "level": "A2",
     "greek": "από μέσα/έξω",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "since then",
     "level": "A2",
     "greek": "από τότε",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "afternoon, evening",
@@ -9200,7 +9194,7 @@
   {
     "english": "detergent",
     "level": "A2",
-    "greek": "απορρυπαντικό",
+    "greek": "απορρυπαντικό, to",
     "type": "noun"
   },
   {
@@ -9213,7 +9207,7 @@
     "english": "negatively",
     "level": "A2",
     "greek": "αρνητικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "lamb",
@@ -9309,7 +9303,7 @@
     "english": "let(s)",
     "level": "A2",
     "greek": "ας",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "to gain weight",
@@ -9477,7 +9471,7 @@
     "english": "strongly, firmly",
     "level": "A2",
     "greek": "γερά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "taste",
@@ -9489,7 +9483,7 @@
     "english": "that’s why",
     "level": "A2",
     "greek": "γι' αυτό",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "seashore, seaside, coastline",
@@ -9579,7 +9573,7 @@
     "english": "meaning, that is",
     "level": "A2",
     "greek": "δηλαδή",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "city hall, town hall",
@@ -9645,7 +9639,7 @@
     "english": "successively, consecutively",
     "level": "A2",
     "greek": "διαδοχικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "way, path, route, itinerary",
@@ -9705,7 +9699,7 @@
     "english": "Have fun! / Enjoy! / Enjoy yourself!",
     "level": "A2",
     "greek": "διασκέδαση!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "period, time",
@@ -9795,7 +9789,7 @@
     "english": "around here",
     "level": "A2",
     "greek": "εδώ γύρω",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "for a long time",
@@ -9873,7 +9867,7 @@
     "english": "Happy birthday!",
     "level": "A2",
     "greek": "Να τα εκατοστίσεις!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "event, show",
@@ -10119,13 +10113,13 @@
     "english": "out",
     "level": "A2",
     "greek": "έξω",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "outside",
     "level": "A2",
     "greek": "έξω από",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "overseas, abroad",
@@ -10155,7 +10149,7 @@
     "english": "because",
     "level": "A2",
     "greek": "επειδή",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "our, -ό /",
@@ -10233,13 +10227,13 @@
     "english": "both",
     "level": "A2",
     "greek": "και οι δύο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "hardly, barely",
     "level": "A2",
     "greek": "δύσκολα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "difficulty, trouble",
@@ -10293,13 +10287,13 @@
     "english": "at last, finally",
     "level": "A2",
     "greek": "επιτέλους",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Good luck!",
     "level": "A2",
     "greek": "Καλή επιτυχία!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "famous, celebrity",
@@ -10341,7 +10335,7 @@
     "english": "this way, thus, so",
     "level": "A2",
     "greek": "έτσι",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Thessaloniki Water Supply and Sewerage Company",
@@ -10359,19 +10353,19 @@
     "english": "easily",
     "level": "A2",
     "greek": "εύκολα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Happy new year!",
     "level": "A2",
     "greek": "Ευτυχισμένος ο καινούριος χρόνος!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "luckily, fortunately",
     "level": "A2",
     "greek": "ευτυχώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "pleased, content, satisfied",
@@ -10401,7 +10395,7 @@
     "english": "May you have a life long marriage! / Congratulations!",
     "level": "A2",
     "greek": "Να ζήσετε!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "pasta",
@@ -10443,7 +10437,7 @@
     "english": "it is sunny",
     "level": "A2",
     "greek": "έχει ήλιο",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "mild, gentle",
@@ -10491,7 +10485,7 @@
     "english": "positively",
     "level": "A2",
     "greek": "θετικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "case",
@@ -10527,7 +10521,7 @@
     "english": "particularly, specifically, in particular",
     "level": "A2",
     "greek": "ιδιαίτερα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "institute/institution, foundation",
@@ -10587,7 +10581,7 @@
     "english": "daily, every day",
     "level": "A2",
     "greek": "καθημερινά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "at the moment",
@@ -10605,7 +10599,7 @@
     "english": "good, well",
     "level": "A2",
     "greek": "καλά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "carols",
@@ -10641,31 +10635,31 @@
     "english": "Happy holidays!",
     "level": "A2",
     "greek": "Καλές γιορτές!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "Happy New Year!",
     "level": "A2",
     "greek": "Καλή χρονιά!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "Happy Easter!",
     "level": "A2",
     "greek": "Καλό Πάσχα!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "Happy Easter!",
     "level": "A2",
     "greek": "Καλή Ανάσταση!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "Bon appetite! / Enjoy your meal!",
     "level": "A2",
     "greek": "Καλή όρεξη!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "corn",
@@ -10695,7 +10689,7 @@
     "english": "any, anybody, anyone",
     "level": "A2",
     "greek": "να",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "normal, regular",
@@ -10707,7 +10701,7 @@
     "english": "normally, regularly",
     "level": "A2",
     "greek": "κανονικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "How much does it cost?",
@@ -10839,7 +10833,7 @@
     "english": "brown",
     "level": "A2",
     "greek": "καφέ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "cell",
@@ -10881,7 +10875,7 @@
     "english": "already",
     "level": "A2",
     "greek": "κιόλας",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "classical",
@@ -11079,7 +11073,7 @@
     "english": "it is cold",
     "level": "A2",
     "greek": "κάνει/έχει κρύο",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to be cold, to get cold",
@@ -11217,7 +11211,7 @@
     "english": "for a while (σε)",
     "level": "A2",
     "greek": "λίγο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Abraham Lincoln",
@@ -11271,7 +11265,7 @@
     "english": "but",
     "level": "A2",
     "greek": "μα",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "cooking",
@@ -11433,7 +11427,7 @@
     "english": "in, into",
     "level": "A2",
     "greek": "μέσα σε",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "lunch",
@@ -11475,7 +11469,7 @@
     "english": "whether, if",
     "level": "A2",
     "greek": "μήπως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "engineer, mechanic",
@@ -11523,7 +11517,7 @@
     "english": "only",
     "level": "A2",
     "greek": "μόνο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "sigle room",
@@ -11589,7 +11583,7 @@
     "english": "Happy birthday!",
     "level": "A2",
     "greek": "νι Να ζήσεις!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "church, temple",
@@ -11877,13 +11871,13 @@
     "english": "horizontally",
     "level": "A2",
     "greek": "οριζόντια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "all that",
     "level": "A2",
     "greek": "όσα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Hellenic Telecommunications Organization",
@@ -11955,7 +11949,7 @@
     "english": "in the past, once",
     "level": "A2",
     "greek": "παλιά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "of university",
@@ -12009,7 +12003,7 @@
     "english": "Please!",
     "level": "A2",
     "greek": "Σας παρακαλώ!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "eve, the day before",
@@ -12078,10 +12072,10 @@
     "type": "verb"
   },
   {
-    "english": "it matters (δεν)",
+    "english": "it matters",
     "level": "A2",
-    "greek": "πειράζει",
-    "type": "noun"
+    "greek": " (δεν) πειράζει",
+    "type": "phrase"
   },
   {
     "english": "case",
@@ -12099,7 +12093,7 @@
     "english": "Get well soon!",
     "level": "A2",
     "greek": "Περαστικά!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to include",
@@ -12111,7 +12105,7 @@
     "english": "about, more or less",
     "level": "A2",
     "greek": "περίπου",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "more",
@@ -12291,19 +12285,19 @@
     "english": "Where are you from?",
     "level": "A2",
     "greek": "πού είσαι/είστε?",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "nowhere",
     "level": "A2",
     "greek": "πουθενά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "really, indeed, in fact",
     "level": "A2",
     "greek": "πραγματικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "act",
@@ -12410,7 +12404,7 @@
   {
     "english": "solid triangular shape, pyramid",
     "level": "A2",
-    "greek": "πυραμίδα",
+    "greek": "πυραμίδα, η",
     "type": "noun"
   },
   {
@@ -12477,18 +12471,6 @@
     "english": "rock music",
     "level": "A2",
     "greek": "ροκ μουσική, η",
-    "type": "noun"
-  },
-  {
-    "english": "rythm «Ρωμαίος",
-    "level": "A2",
-    "greek": "ρυθμός, ο",
-    "type": "noun"
-  },
-  {
-    "english": "“Romeo and Juliet”",
-    "level": "A2",
-    "greek": "και Ιουλιέτα»",
     "type": "noun"
   },
   {
@@ -12633,7 +12615,7 @@
     "english": "rarely, seldom",
     "level": "A2",
     "greek": "σπάνια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to be (at) home",
@@ -12759,7 +12741,7 @@
     "english": "I’m sorry!",
     "level": "A2",
     "greek": "Συγγνώμη!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to discuss",
@@ -12831,7 +12813,7 @@
     "english": "it is cloudy",
     "level": "A2",
     "greek": "έχει συννεφιά",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to take an interview, to interview",
@@ -12897,7 +12879,7 @@
     "english": "almost",
     "level": "A2",
     "greek": "σχεδόν",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "relating to",
@@ -12909,7 +12891,7 @@
     "english": "concerning, regarding, in regard to",
     "level": "A2",
     "greek": "σχετικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to go to school",
@@ -12927,7 +12909,7 @@
     "english": "right, correctly",
     "level": "A2",
     "greek": "σωστά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Sotiria",
@@ -12975,7 +12957,7 @@
     "english": "finally, after all",
     "level": "A2",
     "greek": "τελικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "huge, enormous",
@@ -13065,7 +13047,7 @@
     "english": "at least",
     "level": "A2",
     "greek": "τουλάχιστον",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "birthday cake",
@@ -13233,7 +13215,7 @@
     "english": "once",
     "level": "A2",
     "greek": "μία φορά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "hazelnut",
@@ -13299,7 +13281,7 @@
     "english": "of course, certainly",
     "level": "A2",
     "greek": "φυσικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "fire",
@@ -13341,7 +13323,7 @@
     "english": "hello/goodbye",
     "level": "A2",
     "greek": "χαίρετε",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "greeting",
@@ -13467,7 +13449,7 @@
     "english": "Christ is risen!",
     "level": "A2",
     "greek": "Χριστός Ανέστη!",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "christmas/of christmas",
@@ -13485,7 +13467,7 @@
     "english": "Merry Christmas!",
     "level": "A2",
     "greek": "Χρόνια πολλά !",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "the phone is ringing",
@@ -13929,7 +13911,7 @@
     "english": "besides, moreover, after all",
     "level": "B1",
     "greek": "άλλωστε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "saltiness",
@@ -13959,7 +13941,7 @@
     "english": "untouched, unscathed",
     "level": "B1",
     "greek": "αλώβητα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "train",
@@ -13977,7 +13959,7 @@
     "english": "promptly, directly",
     "level": "B1",
     "greek": "άμεσα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "mutual, reciprocal",
@@ -14013,7 +13995,7 @@
     "english": "although, even though",
     "level": "B1",
     "greek": "αν και",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "to be forced, to be obliged",
@@ -14253,7 +14235,7 @@
     "english": "comfortably",
     "level": "B1",
     "greek": "άνετα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "comfortable, comfy, cosy",
@@ -14421,7 +14403,7 @@
     "english": "instead of, in place of",
     "level": "B1",
     "greek": "αντί",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "antibiotics",
@@ -14475,7 +14457,7 @@
     "english": "on the contrary",
     "level": "B1",
     "greek": "αντίθετα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "payment upon delivery",
@@ -14571,7 +14553,7 @@
     "english": "accordingly",
     "level": "B1",
     "greek": "αντίστοιχα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to correspond",
@@ -14583,7 +14565,7 @@
     "english": "contrarily",
     "level": "B1",
     "greek": "αντίστροφα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "thumb",
@@ -14604,12 +14586,6 @@
     "type": "noun"
   },
   {
-    "english": "Ano Poroia",
-    "level": "B1",
-    "greek": "Άνω Πορόια",
-    "type": "noun"
-  },
-  {
     "english": "first floor",
     "level": "B1",
     "greek": "ανώι, το",
@@ -14619,7 +14595,7 @@
     "english": "in a mess",
     "level": "B1",
     "greek": "άνω κάτω",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "anonymous",
@@ -14708,14 +14684,14 @@
   {
     "english": "indefinite article",
     "level": "B1",
-    "greek": "αόριστο άρθρο",
+    "greek": "αόριστο άρθρο, το",
     "type": "noun"
   },
   {
     "english": "indefinitely",
     "level": "B1",
     "greek": "αόριστα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "prohibited, forbidden",
@@ -14889,7 +14865,7 @@
     "english": "only, simply",
     "level": "B1",
     "greek": "απλώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "waste, sewage",
@@ -15195,7 +15171,7 @@
     "english": "tonight",
     "level": "B1",
     "greek": "απόψε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "opinion",
@@ -15261,7 +15237,7 @@
     "english": "later",
     "level": "B1",
     "greek": "αργότερα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "the Dalmatian pelican, pelecanus crispus",
@@ -15993,7 +15969,7 @@
     "english": "in a rush, hurriedly",
     "level": "B1",
     "greek": "βιαστικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "hurry, rush",
@@ -16029,7 +16005,7 @@
     "english": "violet",
     "level": "B1",
     "greek": "βιολετί",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "biological",
@@ -16107,13 +16083,13 @@
     "english": "(to the) north",
     "level": "B1",
     "greek": "βόρεια",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "northwest",
     "level": "B1",
     "greek": "βορειοδυτικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "northerly wind",
@@ -16350,7 +16326,7 @@
     "type": "adjective"
   },
   {
-    "english": "fact",
+    "english": "fact, event",
     "level": "B1",
     "greek": "γεγονός, το",
     "type": "noun"
@@ -16509,7 +16485,7 @@
     "english": "that’s why",
     "level": "B1",
     "greek": "γι’ αυτό",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "collar",
@@ -17535,7 +17511,7 @@
     "english": "west",
     "level": "B1",
     "greek": "δυτικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "western",
@@ -17691,7 +17667,7 @@
     "english": "honestly, frankly",
     "level": "B1",
     "greek": "ειλικρινά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "honesty",
@@ -17774,7 +17750,7 @@
   {
     "english": "essay writing",
     "level": "B1",
-    "greek": "έκθεση",
+    "greek": "έκθεση, η",
     "type": "noun"
   },
   {
@@ -17835,7 +17811,7 @@
     "english": "besides",
     "level": "B1",
     "greek": "εκτός",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to print",
@@ -18183,7 +18159,7 @@
     "english": "okay, all right",
     "level": "B1",
     "greek": "εντάξει",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "tension",
@@ -18231,7 +18207,7 @@
     "english": "while",
     "level": "B1",
     "greek": "ενώ",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "joined, united",
@@ -18645,7 +18621,7 @@
     "english": "persistently",
     "level": "B1",
     "greek": "επίμονα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "persistence",
@@ -18723,7 +18699,7 @@
     "english": "deliberately",
     "level": "B1",
     "greek": "επίτηδες",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "board, table top",
@@ -18909,13 +18885,13 @@
     "english": "even if",
     "level": "B1",
     "greek": "έστω",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "internally",
     "level": "B1",
     "greek": "εσωτερικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "half-brother, halfsister, step-brother, step-sister",
@@ -18927,7 +18903,7 @@
     "english": "so and so",
     "level": "B1",
     "greek": "έτσι κι έτσι",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "sensitivity, sensibility",
@@ -19281,7 +19257,7 @@
     "english": "calmly, peacefully",
     "level": "B1",
     "greek": "ήρεμα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "calm, peacefulness",
@@ -19305,7 +19281,7 @@
     "english": "quietly",
     "level": "B1",
     "greek": "ήσυχα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "volcano",
@@ -19629,7 +19605,7 @@
     "english": "ideally",
     "level": "B1",
     "greek": "ιδανικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "ideal, perfect",
@@ -19950,9 +19926,9 @@
     "type": "verb"
   },
   {
-    "english": "flared",
+    "english": "bell",
     "level": "B1",
-    "greek": "καμπάνα",
+    "greek": "καμπάνα, η",
     "type": "noun"
   },
   {
@@ -20025,7 +20001,7 @@
     "english": "somewhere",
     "level": "B1",
     "greek": "κάπου",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "cardamom",
@@ -20055,7 +20031,7 @@
     "english": "checked",
     "level": "B1",
     "greek": "καρό",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "wagon",
@@ -20205,7 +20181,7 @@
     "english": "in principle",
     "level": "B1",
     "greek": "καταρχήν",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to build, to construct",
@@ -20289,7 +20265,7 @@
     "english": "accuse, blame",
     "level": "B1",
     "greek": "κατηγορώ",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "inhabited",
@@ -20313,7 +20289,7 @@
     "english": "inhabit, live",
     "level": "B1",
     "greek": "κατοικώ",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "floor plan",
@@ -20391,7 +20367,7 @@
     "english": "centrally",
     "level": "B1",
     "greek": "κεντρικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "antenna",
@@ -21015,7 +20991,7 @@
     "english": "pale yellow, cream",
     "level": "B1",
     "greek": "κρεμ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "hanging",
@@ -21195,7 +21171,7 @@
     "english": "mainly",
     "level": "B1",
     "greek": "κυρίως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "main course",
@@ -21242,7 +21218,7 @@
   {
     "english": "olive",
     "level": "B1",
-    "greek": "λαδί",
+    "greek": "λαδί, το",
     "type": "noun"
   },
   {
@@ -21315,7 +21291,7 @@
     "english": "lime green",
     "level": "B1",
     "greek": "λαχανί",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "to be said, to be named",
@@ -21453,7 +21429,7 @@
     "english": "so, well",
     "level": "B1",
     "greek": "λοιπόν",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to take a shower",
@@ -21603,7 +21579,7 @@
     "english": "indeed, actually",
     "level": "B1",
     "greek": "μάλιστα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "wool",
@@ -22059,7 +22035,7 @@
     "english": "very small, miniscule",
     "level": "B1",
     "greek": "μίνι",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "mixer",
@@ -22155,7 +22131,7 @@
     "english": "only",
     "level": "B1",
     "greek": "μονάχα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "lonely",
@@ -22449,12 +22425,12 @@
     "english": "purple",
     "level": "B1",
     "greek": "μωβ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
-    "english": "lesser white-fronted goose",
+    "english": "lullaby",
     "level": "B1",
-    "greek": "νι νανόχηνα, η",
+    "greek": "νινανοχήνα, η",
     "type": "noun"
   },
   {
@@ -22659,7 +22635,7 @@
     "english": "full, right in the middle of",
     "level": "B1",
     "greek": "ντάλα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "cleavage",
@@ -22718,7 +22694,7 @@
   {
     "english": "cousin",
     "level": "B1",
-    "greek": "ξι ξάδερφος, ο",
+    "greek": "ξάδερφος, ξαδέρφη, ο/η",
     "type": "noun"
   },
   {
@@ -22845,7 +22821,7 @@
     "english": "burst",
     "level": "B1",
     "greek": "ξεσπάω",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "revelry, fun",
@@ -23001,7 +22977,7 @@
     "english": "economically, financially",
     "level": "B1",
     "greek": "οικονομικά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "house",
@@ -23037,7 +23013,7 @@
     "english": "noticeably",
     "level": "B1",
     "greek": "ολοφάνερα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "olympic",
@@ -23085,7 +23061,7 @@
     "english": "certainly",
     "level": "B1",
     "greek": "οπωσδήποτε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "organism",
@@ -23253,7 +23229,7 @@
     "english": "not even",
     "level": "B1",
     "greek": "ούτε",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to be owed",
@@ -23385,7 +23361,7 @@
     "english": "pale, very soft hue",
     "level": "B1",
     "greek": "παλ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "palm, hand",
@@ -23469,7 +23445,7 @@
     "english": "everywhere",
     "level": "B1",
     "greek": "παντού",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "rusk, crouton",
@@ -23751,7 +23727,7 @@
     "english": "step",
     "level": "B1",
     "greek": "πατάω & -ώ",
-    "type": "noun"
+    "type": "verb"
   },
   {
     "english": "ice-skate, roller-skate",
@@ -24033,7 +24009,7 @@
     "english": "teal",
     "level": "B1",
     "greek": "πετρόλ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "to succeed",
@@ -24105,12 +24081,6 @@
     "english": "possibility",
     "level": "B1",
     "greek": "πιθανότητα, η",
-    "type": "noun"
-  },
-  {
-    "english": "pikantiki, or else politiki (a salad made with shredded cabbage, carrots, celery, red peppers, and parsley)",
-    "level": "B1",
-    "greek": "πικάντικη",
     "type": "noun"
   },
   {
@@ -24339,7 +24309,7 @@
     "english": "completely, totally",
     "level": "B1",
     "greek": "πλήρως",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "plot",
@@ -24368,7 +24338,7 @@
   {
     "english": "cultural club",
     "level": "B1",
-    "greek": "πνευματικό κέντρο",
+    "greek": "πνευματικό κέντρο, το",
     "type": "noun"
   },
   {
@@ -24543,7 +24513,7 @@
     "english": "spotted, polka dotted",
     "level": "B1",
     "greek": "πουά",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "poultry",
@@ -24680,8 +24650,8 @@
   {
     "english": "it’s going to, it’s about to",
     "level": "B1",
-    "greek": "πρόκειται",
-    "type": "noun"
+    "greek": "πρόκειται (για)",
+    "type": "verb"
   },
   {
     "english": "provocative",
@@ -24879,7 +24849,7 @@
     "english": "recently",
     "level": "B1",
     "greek": "πρόσφατα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "bargain, offer",
@@ -24945,7 +24915,7 @@
     "english": "casually, makeshift",
     "level": "B1",
     "greek": "πρόχειρα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "the day before yesterday",
@@ -25124,7 +25094,7 @@
   {
     "english": "verb",
     "level": "B1",
-    "greek": "ρήμα",
+    "greek": "ρήμα, το",
     "type": "noun"
   },
   {
@@ -25136,8 +25106,8 @@
   {
     "english": "striped",
     "level": "B1",
-    "greek": "ριγέ, το",
-    "type": "noun"
+    "greek": "ριγέ",
+    "type": "adjective"
   },
   {
     "english": "root",
@@ -25268,7 +25238,7 @@
   {
     "english": "Saturday",
     "level": "B1",
-    "greek": "σίγμα Σάββατο, το",
+    "greek": "Σάββατο, το",
     "type": "noun"
   },
   {
@@ -25491,7 +25461,7 @@
     "english": "arctic blue",
     "level": "B1",
     "greek": "σιέλ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "to age meat after butchering",
@@ -25593,7 +25563,7 @@
     "english": "roughly, hard",
     "level": "B1",
     "greek": "σκληρά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "rope",
@@ -25671,7 +25641,7 @@
     "english": "chocolate brown",
     "level": "B1",
     "greek": "σοκολατί",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "salmon",
@@ -25689,7 +25659,7 @@
     "english": "sophisticated",
     "level": "B1",
     "greek": "σοφιστικέ",
-    "type": "noun"
+    "type": "adjective"
   },
   {
     "english": "attic",
@@ -25760,8 +25730,8 @@
   {
     "english": "casual",
     "level": "B1",
-    "greek": "σπορ, το",
-    "type": "noun"
+    "greek": "σπορ",
+    "type": "adjective"
   },
   {
     "english": "Sporades",
@@ -25791,7 +25761,7 @@
     "english": "gradually",
     "level": "B1",
     "greek": "σταδιακά",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "stable",
@@ -26073,7 +26043,7 @@
     "english": "specifically",
     "level": "B1",
     "greek": "συγκεκριμένα",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "focused",
@@ -26337,7 +26307,7 @@
     "english": "constantly",
     "level": "B1",
     "greek": "συνεχώς",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "to get used to, to get accustomed to",
@@ -27062,7 +27032,7 @@
   {
     "english": "cement, concrete",
     "level": "B1",
-    "greek": "τσιμέντο",
+    "greek": "τσιμέντο, το",
     "type": "noun"
   },
   {
@@ -27344,7 +27314,7 @@
   {
     "english": "food",
     "level": "B1",
-    "greek": "φι φαγητό, το",
+    "greek": "φαγητό, το",
     "type": "noun"
   },
   {
@@ -27630,12 +27600,6 @@
     "type": "noun"
   },
   {
-    "english": "food cooked in the oven",
-    "level": "B1",
-    "greek": "του φούρνου",
-    "type": "noun"
-  },
-  {
     "english": "to expand, to inflate",
     "level": "B1",
     "greek": "φουσκώνω",
@@ -27776,7 +27740,7 @@
   {
     "english": "roofed balcony at the front of the house",
     "level": "B1",
-    "greek": "χι χαγιάτι, το",
+    "greek": "χαγιάτι, το",
     "type": "noun"
   },
   {
@@ -28509,6 +28473,6 @@
     "english": "it is windy",
     "level": "A2",
     "greek": "έχει αέρα",
-    "type": "noun"
+    "type": "phrase"
   }
 ]
