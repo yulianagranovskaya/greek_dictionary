@@ -130,7 +130,7 @@ function renderDictionary(reset = true) {
       <div><b>${escapeHtml(w.english)}</b></div>
       <div>${escapeHtml(w.greek)}</div>
       <div class="muted">${escapeHtml(w.level)} • ${escapeHtml(w.type || "")}</div>
-	  <button onclick="speak('${w.greek}', 'el-GR')">🔊</button>
+	  <button onclick="speakGreek('${w.greek}', 'el-GR')">🔊GR</button>
     `;
 
     fragment.appendChild(div);
@@ -172,12 +172,29 @@ document.getElementById("startTraining").addEventListener("click", () => {
   nextTrainingWord();
 });
 
-function speak(text, lang="el-GR") {
+function speak(text, lang = "el-GR") {
 
   const utterance = new SpeechSynthesisUtterance(text);
+
+  const voices = speechSynthesis.getVoices();
+
+  const voice = voices.find(v => v.lang === lang);
+
+  if (voice) {
+    utterance.voice = voice;
+  }
+
   utterance.lang = lang;
+  utterance.rate = 0.9;
 
   speechSynthesis.speak(utterance);
+}
+
+function speakGreek(word) {
+
+  const clean = word.split(",")[0].trim();
+
+  speak(clean, "el-GR");
 
 }
 
