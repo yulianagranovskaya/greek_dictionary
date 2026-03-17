@@ -130,6 +130,7 @@ function renderDictionary(reset = true) {
       <div><b>${escapeHtml(w.english)}</b></div>
       <div>${escapeHtml(w.greek)}</div>
       <div class="muted">${escapeHtml(w.level)} • ${escapeHtml(w.type || "")}</div>
+	  <button onclick="speak('${w.greek}', 'el-GR')">🔊</button>
     `;
 
     fragment.appendChild(div);
@@ -170,6 +171,15 @@ document.getElementById("startTraining").addEventListener("click", () => {
   document.getElementById("trainingCard").classList.remove("hidden");
   nextTrainingWord();
 });
+
+function speak(text, lang="el-GR") {
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = lang;
+
+  speechSynthesis.speak(utterance);
+
+}
 
 function nextTrainingWord() {
   const mode = document.getElementById("trainMode").value;
