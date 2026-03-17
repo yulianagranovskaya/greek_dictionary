@@ -3,6 +3,10 @@ let currentTrainingSet = [];
 let currentWord = null;
 let dictionaryVisibleCount = 100;
 
+speechSynthesis.onvoiceschanged = () => {
+  console.log(speechSynthesis.getVoices());
+};
+
 const statsKey = "dictionary_stats_v1";
 const tg = window.Telegram.WebApp;
 tg.ready();
