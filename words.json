@@ -30,7 +30,7 @@
     "type": "adjective"
   },
   {
-    "english": "advertisement, ad",
+    "english": "announcement",
     "level": "A1",
     "greek": "αγγελία, η",
     "type": "noun"
@@ -54,7 +54,7 @@
     "type": "country"
   },
   {
-    "english": "English(man/-woman)",
+    "english": "English(nationality)",
     "level": "A1",
     "greek": "Άγγλος, -ίδα",
     "type": "adjective"
@@ -234,7 +234,7 @@
     "type": "country"
   },
   {
-    "english": "Egyptian",
+    "english": "Egyptian (nationality)",
     "level": "A1",
     "greek": "Αιγύπτιος",
     "type": "noun"
@@ -366,10 +366,10 @@
     "type": "adjective"
   },
   {
-    "english": "Albanian",
+    "english": "Albanian (nationality)",
     "level": "A1",
     "greek": "Αλβανός, -ή/-ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Alexandra",
@@ -381,13 +381,13 @@
     "english": "Alexandria",
     "level": "A1",
     "greek": "Αλεξάνδρεια, η",
-    "type": "name"
+    "type": "country"
   },
   {
     "english": "Alexandroupoli",
     "level": "A1",
     "greek": "Αλεξανδρούπολη, η",
-    "type": "name"
+    "type": "country"
   },
   {
     "english": "Alex",
@@ -447,7 +447,7 @@
     "english": "other, another, else",
     "level": "A1",
     "greek": "άλλος, -η, -ο",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "horse",
@@ -468,10 +468,10 @@
     "type": "adjective"
   },
   {
-    "english": "American",
+    "english": "American (nationality)",
     "level": "A1",
     "greek": "Αμερικανός, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "United States of America (USA)",
@@ -579,7 +579,7 @@
     "english": "Andrianoupoli",
     "level": "A1",
     "greek": "Ανδριανούπολη, η",
-    "type": "name"
+    "type": "country"
   },
   {
     "english": "to climb, to get on",
@@ -672,7 +672,7 @@
     "type": "verb"
   },
   {
-    "english": "obect",
+    "english": "object",
     "level": "A1",
     "greek": "αντικείμενο, το",
     "type": "noun"
@@ -681,7 +681,7 @@
     "english": "goodbye",
     "level": "A1",
     "greek": "αντίο, το",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to match",
@@ -753,7 +753,7 @@
     "english": "opposite",
     "level": "A1",
     "greek": "απέναντι",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "to address to",
@@ -885,7 +885,7 @@
     "english": "on the left",
     "level": "A1",
     "greek": "αριστερά",
-    "type": "noun"
+    "type": "proverb"
   },
   {
     "english": "left",
@@ -924,7 +924,7 @@
     "type": "country"
   },
   {
-    "english": "Armenian",
+    "english": "Armenian language",
     "level": "A1",
     "greek": "αρμενική γλώσσα (/αρμενικά)",
     "type": "noun"
@@ -936,7 +936,7 @@
     "type": "adjective"
   },
   {
-    "english": "Armenian",
+    "english": "Armenian (nationality)",
     "level": "A1",
     "greek": "Αρμένιος",
     "type": "noun"
@@ -1104,10 +1104,10 @@
     "type": "country"
   },
   {
-    "english": "Australian",
+    "english": "Australian (nationality)",
     "level": "A1",
     "greek": "Αυστραλός, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Australian",
@@ -1128,12 +1128,6 @@
     "type": "adjective"
   },
   {
-    "english": "Austrian",
-    "level": "A1",
-    "greek": "αυστριακός, -ή, -ό",
-    "type": "adjective"
-  },
-  {
     "english": "ear",
     "level": "A1",
     "greek": "αυτί, το",
@@ -1149,7 +1143,7 @@
     "english": "he, she, it",
     "level": "A1",
     "greek": "αυτός, -ή, -ό",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "boss",
@@ -1182,10 +1176,10 @@
     "type": "adjective"
   },
   {
-    "english": "African",
+    "english": "African (nationality)",
     "level": "A1",
     "greek": "Αφρικανός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Africa",
@@ -1203,7 +1197,7 @@
     "english": "Argostoli",
     "level": "A1",
     "greek": "Αργοστόλι, το",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "to put",
@@ -1232,7 +1226,7 @@
   {
     "english": "deep",
     "level": "A1",
-    "greek": "βαθύς́, -ύ",
+    "greek": "βαθύς́, -ιά, -ύ",
     "type": "adjective"
   },
   {
@@ -1262,7 +1256,7 @@
   {
     "english": "heavy",
     "level": "A1",
-    "greek": "βαρύς́, -ύ",
+    "greek": "βαρύς́, -ιά, -ύ",
     "type": "adjective"
   },
   {
@@ -1300,12 +1294,6 @@
     "level": "A1",
     "greek": "βασιλόπιτα, η",
     "type": "noun"
-  },
-  {
-    "english": "Vasso",
-    "level": "A1",
-    "greek": "Βάσω, η",
-    "type": "name"
   },
   {
     "english": "to paint",
@@ -1350,7 +1338,7 @@
     "type": "adjective"
   },
   {
-    "english": "Belgian",
+    "english": "Belgian (nationality)",
     "level": "A1",
     "greek": "Βέλγος, -ίδα",
     "type": "adjective"
@@ -1359,7 +1347,7 @@
     "english": "Belgrade",
     "level": "A1",
     "greek": "Βελιγράδι, το",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "velvet",
@@ -1500,10 +1488,10 @@
     "type": "noun"
   },
   {
-    "english": "Bulgarian",
+    "english": "Bulgarian (nationality)",
     "level": "A1",
     "greek": "Βούλγαρος, -α",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "mountain",
@@ -1554,10 +1542,10 @@
     "type": "noun"
   },
   {
-    "english": "Brazilian",
+    "english": "Brazilian (nationality)",
     "level": "A1",
     "greek": "Βραζιλιάνος, -α",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Britain",
@@ -1587,7 +1575,7 @@
     "english": "Brussels",
     "level": "A1",
     "greek": "Βρυξέλλες, οι",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "tap",
@@ -1632,10 +1620,10 @@
     "type": "noun"
   },
   {
-    "english": "French",
+    "english": "French (nationality)",
     "level": "A1",
     "greek": "Γάλλος, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "wedding",
@@ -1740,10 +1728,10 @@
     "type": "adjective"
   },
   {
-    "english": "German",
+    "english": "German (nationality)",
     "level": "A1",
     "greek": "Γερμανός, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "healthy",
@@ -1764,7 +1752,7 @@
     "type": "noun"
   },
   {
-    "english": "playing field",
+    "english": "stadium",
     "level": "A1",
     "greek": "γήπεδο, το",
     "type": "noun"
@@ -1794,13 +1782,13 @@
     "type": "noun"
   },
   {
-    "english": "Japanese",
+    "english": "Japanese (nationality)",
     "level": "A1",
     "greek": "Γιαπωνέζος, -α",
-    "type": "adjective"
+    "type": "noun"
   },
   {
-    "english": "asmine",
+    "english": "jasmine",
     "level": "A1",
     "greek": "γιασεμί, το",
     "type": "noun"
@@ -1874,7 +1862,7 @@
   {
     "english": "mother tongue",
     "level": "A1",
-    "greek": "γλώσσα μητρική",
+    "greek": "γλώσσα μητρική, η",
     "type": "noun"
   },
   {
@@ -2019,7 +2007,7 @@
     "english": "trainer",
     "level": "A1",
     "greek": "γυμναστής, -τρια",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "gymnastics",
@@ -2172,7 +2160,7 @@
     "type": "noun"
   },
   {
-    "english": "right",
+    "english": "on the right",
     "level": "A1",
     "greek": "δεξιά",
     "type": "adverb"
@@ -2196,10 +2184,10 @@
     "type": "name"
   },
   {
-    "english": "Jim/Dimitris",
+    "english": "Dimitris",
     "level": "A1",
     "greek": "Δημήτρης, ο",
-    "type": "noun"
+    "type": "name"
   },
   {
     "english": "cereal",
@@ -2226,7 +2214,7 @@
     "type": "adjective"
   },
   {
-    "english": "ournalist",
+    "english": "journalist",
     "level": "A1",
     "greek": "δημοσιογράφος, ο/η",
     "type": "noun"
@@ -2358,7 +2346,7 @@
     "type": "noun"
   },
   {
-    "english": "advertisment, ad [see also",
+    "english": "advertisment, ad",
     "level": "A1",
     "greek": "διαφήμιση, η",
     "type": "noun"
@@ -2414,11 +2402,11 @@
   {
     "english": "manager, director",
     "level": "A1",
-    "greek": "διευθυντής, -ντρια",
-    "type": "adjective"
+    "greek": "διευθυντής, ο, -ντρια, η",
+    "type": "noun"
   },
   {
-    "english": "ust, fair",
+    "english": "fair",
     "level": "A1",
     "greek": "δίκαιος, -η, -ο",
     "type": "adjective"
@@ -2454,13 +2442,13 @@
     "type": "noun"
   },
   {
-    "english": "nearby",
+    "english": "next door, nearby",
     "level": "A1",
     "greek": "διπλανός, -ή, -ό",
     "type": "adjective"
   },
   {
-    "english": "double",
+    "english": "doubled",
     "level": "A1",
     "greek": "διπλός, -ή, -ό",
     "type": "adjective"
@@ -2472,7 +2460,7 @@
     "type": "verb"
   },
   {
-    "english": "to try",
+    "english": "to try, taste",
     "level": "A1",
     "greek": "δοκιμάζω",
     "type": "verb"
@@ -2481,7 +2469,7 @@
     "english": "Dublin",
     "level": "A1",
     "greek": "Δουβλίνο, το",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "work",
@@ -2494,12 +2482,6 @@
     "level": "A1",
     "greek": "δουλεύω",
     "type": "verb"
-  },
-  {
-    "english": "Danube",
-    "level": "A1",
-    "greek": "Δούναβης, ο",
-    "type": "name"
   },
   {
     "english": "activity",
@@ -2652,7 +2634,7 @@
     "type": "country"
   },
   {
-    "english": "Greek",
+    "english": "Greek (nationality)",
     "level": "A1",
     "greek": "Έλληνας/Ελληνίδα, ο/η",
     "type": "noun"
@@ -2922,10 +2904,10 @@
     "type": "adjective"
   },
   {
-    "english": "European",
+    "english": "European (nationality)",
     "level": "A1",
     "greek": "Ευρωπαίος, -α",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Europe",
@@ -3015,13 +2997,13 @@
     "english": "Zaïr",
     "level": "A1",
     "greek": "Ζαΐρ, το",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "Zakynthos, Zante",
     "level": "A1",
     "greek": "Ζάκυνθος, η",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "ham",
@@ -3057,7 +3039,7 @@
     "english": "It is hot",
     "level": "A1",
     "greek": "Κάνει ζέστη",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "pair (Νέα)",
@@ -3069,13 +3051,13 @@
     "english": "(New) Zeland",
     "level": "A1",
     "greek": "Ζηλανδία, η",
-    "type": "noun"
+    "type": "country"
   },
   {
-    "english": "(New) Zelander",
+    "english": "(New) Zelander (nationality)",
     "level": "A1",
     "greek": "Ζηλανδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "to ask",
@@ -3273,7 +3255,7 @@
     "english": "Thibet",
     "level": "A1",
     "greek": "Θιβέτ, το",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "noise",
@@ -3366,10 +3348,10 @@
     "type": "adjective"
   },
   {
-    "english": "Irish",
+    "english": "Irish (nationality)",
     "level": "A1",
     "greek": "Ιρλανδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Iceland",
@@ -3384,10 +3366,10 @@
     "type": "adjective"
   },
   {
-    "english": "Icelandic",
+    "english": "Icelandic (nationality)",
     "level": "A1",
     "greek": "Ισλανδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "ground floor",
@@ -3408,10 +3390,10 @@
     "type": "adjective"
   },
   {
-    "english": "Spanish",
+    "english": "Spanish (nationality)",
     "level": "A1",
     "greek": "Ισπανός, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Israel",
@@ -3420,7 +3402,7 @@
     "type": "country"
   },
   {
-    "english": "Israeli Iσραηλινός, -ή = Israeli",
+    "english": "Israeli",
     "level": "A1",
     "greek": "ισραηλινός, -ή, -ό",
     "type": "adjective"
@@ -3450,10 +3432,10 @@
     "type": "adjective"
   },
   {
-    "english": "Italian",
+    "english": "Italian (nationality)",
     "level": "A1",
     "greek": "Ιταλός, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "to clean",
@@ -3552,22 +3534,22 @@
     "type": "adjective"
   },
   {
-    "english": "goodmorning",
+    "english": "good morning",
     "level": "A1",
     "greek": "καλημέρα",
-    "type": "noun"
+    "type": "phrase"
   },
   {
-    "english": "goodnight",
+    "english": "good night",
     "level": "A1",
     "greek": "καληνύχτα",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "good afternoon",
     "level": "A1",
     "greek": "καλησπέρα",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "summer",
@@ -3636,10 +3618,10 @@
     "type": "adjective"
   },
   {
-    "english": "Canadian",
+    "english": "Canadian (nationality)",
     "level": "A1",
     "greek": "Καναδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "sofa",
@@ -3651,7 +3633,7 @@
     "english": "no, no one",
     "level": "A1",
     "greek": "κανένας, καμία/καμιά, κανένα",
-    "type": "noun"
+    "type": "pronoun"
   },
   {
     "english": "rule",
@@ -3900,10 +3882,10 @@
     "type": "country"
   },
   {
-    "english": "Chinese",
+    "english": "Chinese (nationality)",
     "level": "A1",
     "greek": "Κινέζος, -α",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Chinese",
@@ -4050,7 +4032,7 @@
     "type": "country"
   },
   {
-    "english": "Corean",
+    "english": "Corean (nationality)",
     "level": "A1",
     "greek": "Κορεάτης, -ισσα, ο/ι",
     "type": "noun"
@@ -4124,7 +4106,7 @@
   {
     "english": "rabbit",
     "level": "A1",
-    "greek": "κουζίνα, η κουνέλι, το",
+    "greek": "κουνέλι, το",
     "type": "noun"
   },
   {
@@ -4182,10 +4164,10 @@
     "type": "noun"
   },
   {
-    "english": "Crete (Τι)",
+    "english": "Crete",
     "level": "A1",
     "greek": "Κρήτη, η",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "What a pity!",
@@ -4251,7 +4233,7 @@
     "english": "Sunday",
     "level": "A1",
     "greek": "Κυριακή, η",
-    "type": "noun"
+    "type": "name"
   },
   {
     "english": "sir, mister",
@@ -4706,7 +4688,7 @@
   {
     "english": "(to stay) indoors",
     "level": "A1",
-    "greek": "μέσα (μένω μέσα στο σπίτι)",
+    "greek": "μένω μέσα στο σπίτι",
     "type": "adverb"
   },
   {
@@ -4716,7 +4698,7 @@
     "type": "preposition"
   },
   {
-    "english": "means of trans- port",
+    "english": "means of transport",
     "level": "A1",
     "greek": "μέσα μεταφοράς, τα",
     "type": "noun"
@@ -5196,10 +5178,10 @@
     "type": "country"
   },
   {
-    "english": "Norwegian",
+    "english": "Norwegian (nationality)",
     "level": "A1",
     "greek": "Νορβηγός, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Norwegian",
@@ -5241,7 +5223,7 @@
     "english": "Dumbai",
     "level": "A1",
     "greek": "Ντουμπάι",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "nanny",
@@ -5472,10 +5454,10 @@
     "type": "country"
   },
   {
-    "english": "Dutch",
+    "english": "Dutch (nationality)",
     "level": "A1",
     "greek": "Ολλανδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Dutch",
