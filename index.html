@@ -149,11 +149,15 @@
 
     <button id="startTraining">Start training</button>
 
-    <div id="trainingCard" class="card hidden">
-      <div class="muted">Translate:</div>
-      <div id="question" class="big"></div>
+  <div id="trainingCard" class="card hidden">
+   <div class="muted">Translate:</div>
 
-      <button id="showAnswer">Show answer</button>
+   <div class="row">
+    <div id="question" class="big" style="flex:1;"></div>
+    <button id="speakTrainingWord" style="width:auto;">🔊</button>
+  </div>
+
+  <button id="showAnswer">Show answer</button>
 
       <div id="answerBlock" class="hidden">
         <div class="card">

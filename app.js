@@ -2,6 +2,8 @@ let words = [];
 let currentTrainingSet = [];
 let currentWord = null;
 let dictionaryVisibleCount = 100;
+let greekVoice = null;
+let englishVoice = null;
 
 speechSynthesis.onvoiceschanged = () => {
   console.log(speechSynthesis.getVoices());
@@ -176,31 +178,54 @@ document.getElementById("startTraining").addEventListener("click", () => {
   nextTrainingWord();
 });
 
-function speak(text, lang = "el-GR") {
 
-  const utterance = new SpeechSynthesisUtterance(text);
-
+function loadVoices() {
   const voices = speechSynthesis.getVoices();
 
-  const voice = voices.find(v => v.lang === lang);
+  greekVoice =
+    voices.find(v => v.lang === "el-GR") ||
+    voices.find(v => v.lang && v.lang.startsWith("el")) ||
+    null;
 
-  if (voice) {
-    utterance.voice = voice;
-  }
+  englishVoice =
+    voices.find(v => v.lang === "en-US") ||
+    voices.find(v => v.lang && v.lang.startsWith("en")) ||
+    null;
+}
 
+function speak(text, lang = "el-GR") {
+  const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = lang;
   utterance.rate = 0.9;
 
+  if (lang.startsWith("el") && greekVoice) utterance.voice = greekVoice;
+  if (lang.startsWith("en") && englishVoice) utterance.voice = englishVoice;
+
+  speechSynthesis.cancel();
   speechSynthesis.speak(utterance);
 }
 
 function speakGreek(word) {
-
-  const clean = word.split(",")[0].trim();
-
+  const clean = String(word).split(",")[0].trim();
   speak(clean, "el-GR");
-
 }
+
+function speakEnglish(word) {
+  speak(String(word).trim(), "en-US");
+}
+
+document.getElementById("speakTrainingWord").addEventListener("click", () => {
+  if (!currentWord) return;
+
+  const mode = document.getElementById("trainMode").value;
+
+  if (mode === "en-gr") {
+    speakEnglish(currentWord.english);
+  } else {
+    const cleanGreek = String(currentWord.greek).split(",")[0].trim();
+    speakGreek(cleanGreek);
+  }
+});
 
 function nextTrainingWord() {
   const mode = document.getElementById("trainMode").value;
