@@ -5472,12 +5472,6 @@
     "type": "adjective"
   },
   {
-    "english": "Mount Olympus",
-    "level": "A1",
-    "greek": "Όλυμπος, o",
-    "type": "noun"
-  },
-  {
     "english": "team",
     "level": "A1",
     "greek": "ομάδα, η",
@@ -5535,19 +5529,19 @@
     "english": "who",
     "level": "A1",
     "greek": "οποίος, -α, -ο",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "whoever, any",
     "level": "A1",
     "greek": "όποιος, -α, -ο",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "anyone, any",
     "level": "A1",
     "greek": "οποιοσδήποτε",
-    "type": "adverb"
+    "type": "pronoun"
   },
   {
     "english": "whenever",
@@ -5565,7 +5559,7 @@
     "english": "like, as",
     "level": "A1",
     "greek": "όπως",
-    "type": "adverb"
+    "type": "preposition"
   },
   {
     "english": "rectangle",
@@ -5721,7 +5715,7 @@
     "english": "Holy/Saint Mary",
     "level": "A1",
     "greek": "Παναγία, η",
-    "type": "noun"
+    "type": "name"
   },
   {
     "english": "Panama",
@@ -5871,7 +5865,7 @@
     "english": "more",
     "level": "A1",
     "greek": "παραπάνω / περισσότερο",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "Friday",
@@ -6051,7 +6045,7 @@
     "english": "to have a good time",
     "level": "A1",
     "greek": "περνάω καλά",
-    "type": "verb"
+    "type": "phrase"
   },
   {
     "english": "to walk",
@@ -6063,7 +6057,7 @@
     "english": "last year",
     "level": "A1",
     "greek": "πέρσι/πέρυσι",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "oil",
@@ -6116,7 +6110,7 @@
   {
     "english": "to touch",
     "level": "A1",
-    "greek": "πιάνω",
+    "greek": "αγγίζω",
     "type": "verb"
   },
   {
@@ -6276,22 +6270,22 @@
     "type": "noun"
   },
   {
-    "english": "whose [see also",
+    "english": "whose",
     "level": "A1",
     "greek": "ποιανού, -ής",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "which",
     "level": "A1",
-    "greek": "τίνος] ποιος, -α, -ο",
-    "type": "adjective"
+    "greek": "ποιος, -α, -ο",
+    "type": "pronoun"
   },
   {
     "english": "who",
     "level": "A1",
     "greek": "ποιος, -α, -ο",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "city",
@@ -6360,10 +6354,10 @@
     "type": "country"
   },
   {
-    "english": "Portuguese",
+    "english": "Portuguese (nationality)",
     "level": "A1",
     "greek": "Πορτογάλος, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Portuguese",
@@ -6405,13 +6399,13 @@
     "english": "how many",
     "level": "A1",
     "greek": "πόσοι, -ες, -α",
-    "type": "adjective"
+    "type": "adverb"
   },
   {
     "english": "how much",
     "level": "A1",
     "greek": "πόσος, -η, -ο",
-    "type": "adjective"
+    "type": "adverb"
   },
   {
     "english": "never",
@@ -6762,10 +6756,10 @@
     "type": "country"
   },
   {
-    "english": "Russian",
+    "english": "Russian (nationality)",
     "level": "A1",
     "greek": "Ρώσσος, -ίδα",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "Russian",
@@ -6792,7 +6786,7 @@
     "type": "noun"
   },
   {
-    "english": "acket, blazer",
+    "english": "jacket, blazer",
     "level": "A1",
     "greek": "σακάκι, το",
     "type": "noun"
@@ -7062,10 +7056,10 @@
     "type": "adjective"
   },
   {
-    "english": "Swedish",
+    "english": "Swedish (nationality)",
     "level": "A1",
     "greek": "Σουηδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "super market",
@@ -7184,7 +7178,7 @@
   {
     "english": "apology",
     "level": "A1",
-    "greek": "συγ(γ)νώμη, η",
+    "greek": "συγγνώμη, η",
     "type": "noun"
   },
   {
@@ -7442,7 +7436,7 @@
   {
     "english": "a lot of",
     "level": "A1",
-    "greek": "σωρό",
+    "greek": "σωρός",
     "type": "noun"
   },
   {
@@ -7512,7 +7506,7 @@
     "type": "noun"
   },
   {
-    "english": "to travel, to take a trip, to make a ourney",
+    "english": "to travel, to take a trip, to make a journey",
     "level": "A1",
     "greek": "ταξιδεύω",
     "type": "verb"
@@ -7656,7 +7650,7 @@
     "type": "adverb"
   },
   {
-    "english": "eans",
+    "english": "jeans",
     "level": "A1",
     "greek": "τζιν, το",
     "type": "noun"
@@ -7707,7 +7701,7 @@
     "english": "whose",
     "level": "A1",
     "greek": "τίνος",
-    "type": "noun"
+    "type": "pronoun"
   },
   {
     "english": "nothing",
@@ -7788,7 +7782,7 @@
     "type": "country"
   },
   {
-    "english": "Turkish",
+    "english": "Turkish (nationality)",
     "level": "A1",
     "greek": "Τούρκος, -άλα",
     "type": "adjective"
@@ -8028,7 +8022,7 @@
     "type": "noun"
   },
   {
-    "english": "in charge, responsible",
+    "english": "responsible",
     "level": "A1",
     "greek": "υπεύθυνος, -η, -ο",
     "type": "adjective"
@@ -8130,7 +8124,7 @@
     "type": "noun"
   },
   {
-    "english": "undedrshirt",
+    "english": "undershirt",
     "level": "A1",
     "greek": "φανέλα, η",
     "type": "noun"
@@ -8214,7 +8208,7 @@
     "type": "noun"
   },
   {
-    "english": "automn",
+    "english": "autumn",
     "level": "A1",
     "greek": "φθινόπωρο, το",
     "type": "noun"
@@ -8268,10 +8262,10 @@
     "type": "adjective"
   },
   {
-    "english": "Finnish",
+    "english": "Finnish (nationality)",
     "level": "A1",
     "greek": "Φινλανδός, -ή",
-    "type": "adjective"
+    "type": "noun"
   },
   {
     "english": "to be afraid of",
@@ -8397,7 +8391,7 @@
     "english": "It is windy",
     "level": "A1",
     "greek": "Φυσάει",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "nature",
@@ -8450,7 +8444,7 @@
   {
     "english": "to say hello",
     "level": "A1",
-    "greek": "Ηawaii χαιρετάω, -ώ",
+    "greek": "χαιρετάω, -ώ",
     "type": "verb"
   },
   {
@@ -8499,7 +8493,7 @@
     "english": "Chania",
     "level": "A1",
     "greek": "Χανιά, τα",
-    "type": "noun"
+    "type": "country"
   },
   {
     "english": "to lose",
@@ -8595,13 +8589,7 @@
     "english": "It is snowing",
     "level": "A1",
     "greek": "Χιονίζει",
-    "type": "noun"
-  },
-  {
-    "english": "Chios",
-    "level": "A1",
-    "greek": "Χίος, η",
-    "type": "name"
+    "type": "phrase"
   },
   {
     "english": "kilometre",
@@ -8724,7 +8712,7 @@
     "type": "verb"
   },
   {
-    "english": "uice",
+    "english": "juice",
     "level": "A1",
     "greek": "χυμός, ο",
     "type": "noun"
@@ -8853,13 +8841,13 @@
     "english": "(It is) four o’ clock",
     "level": "A1",
     "greek": "Η ώρα είναι τέσσερις",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "(It is) half past four",
     "level": "A1",
     "greek": "Η ώρα είναι τεσσερισήμισι",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "nice, beautiful",
@@ -9063,7 +9051,7 @@
     "english": "a play is put on",
     "level": "A2",
     "greek": "ανεβαίνει μια θεατρική παράσταση",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "nephew",
@@ -9242,13 +9230,13 @@
   {
     "english": "Technological Educational Institution",
     "level": "A2",
-    "greek": "Εκπαιδευτικό ‘Ιδρυμα), τo",
+    "greek": "Εκπαιδευτικό ‘Ιδρυμα, τo",
     "type": "noun"
   },
   {
-    "english": "Automated Teller Machine / Automatic Transaction Machine",
+    "english": "Automatic Transaction Machine",
     "level": "A2",
-    "greek": "ΑΤΜ (Αυτόματο Μηχάνημα Ανάλη- ψης Μετρητών), το",
+    "greek": "ΑΤΜ (Αυτόματο Μηχάνημα Ανάληψης Μετρητών), το",
     "type": "noun"
   },
   {
@@ -9261,7 +9249,7 @@
     "english": "these, they",
     "level": "A2",
     "greek": "αυτ-οί, -ές, -ά",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "start, beginning, start line",
@@ -9375,7 +9363,7 @@
     "english": "it is raining",
     "level": "A2",
     "greek": "βρέχει",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to get wet",
@@ -9428,8 +9416,7 @@
   {
     "english": "hi/hello",
     "level": "A2",
-    "greek": "γεια",
-    "type": "noun"
+    "greek": "phrase"
   },
   {
     "english": "full",
@@ -9522,18 +9509,6 @@
     "type": "preposition"
   },
   {
-    "english": "Public Power Corporation SA-Hellas",
-    "level": "A2",
-    "greek": "ΔΕΗ (Δημόσια Επιχείρηση Ηλεκτρισμού)",
-    "type": "noun"
-  },
-  {
-    "english": "Natural Gas Supply Companies",
-    "level": "A2",
-    "greek": "ΔΕΠΑ (Δημόσια Επιχείρηση Αερίου ΑΕ)",
-    "type": "noun"
-  },
-  {
     "english": "leather",
     "level": "A2",
     "greek": "δερμάτιν-ος, -η, -ο",
@@ -9543,7 +9518,7 @@
     "english": "Despina/Despoina",
     "level": "A2",
     "greek": "Δέσποινα, η",
-    "type": "noun"
+    "type": "name"
   },
   {
     "english": "meaning, that is",
@@ -9666,7 +9641,7 @@
     "type": "adjective"
   },
   {
-    "english": "entertainment, fun, amusement Kαλή",
+    "english": "entertainment, fun, amusement",
     "level": "A2",
     "greek": "διασκέδαση, η",
     "type": "noun"
@@ -9771,7 +9746,7 @@
     "english": "for a long time",
     "level": "A2",
     "greek": "εδώ και πολύ καιρό",
-    "type": "noun"
+    "type": "adverb"
   },
   {
     "english": "custom, tradition",
@@ -10131,13 +10106,13 @@
     "english": "our, -ό /",
     "level": "A2",
     "greek": "δικ-οί, -ές, -ά του -ό / δικ-οί, -ές, -ά μας",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "your, yours",
     "level": "A2",
     "greek": "δικ-οί, -ές, -ά σας",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "to be given",
@@ -10156,12 +10131,6 @@
     "level": "A2",
     "greek": "δουλειές σπιτιού, οι",
     "type": "noun"
-  },
-  {
-    "english": "Drama",
-    "level": "A2",
-    "greek": "Δράμα, η",
-    "type": "name"
   },
   {
     "english": "dramatic",
@@ -10248,7 +10217,7 @@
     "type": "noun"
   },
   {
-    "english": "to visit",
+    "english": "to visited",
     "level": "A2",
     "greek": "επισκέπτομαι",
     "type": "verb"
@@ -10312,18 +10281,6 @@
     "level": "A2",
     "greek": "έτσι",
     "type": "adverb"
-  },
-  {
-    "english": "Thessaloniki Water Supply and Sewerage Company",
-    "level": "A2",
-    "greek": "ΕΥΑΘ (Εταιρεία Ύδρευσης και Αποχέτευσης Θεσσαλονίκης)",
-    "type": "noun"
-  },
-  {
-    "english": "Athens Water Supply and Sewerage Company",
-    "level": "A2",
-    "greek": "Ύδρευσης και Αποχέ- τευσης Πρωτεύουσας)",
-    "type": "noun"
   },
   {
     "english": "easily",
@@ -10526,7 +10483,7 @@
   {
     "english": "opportunity, chance",
     "level": "A2",
-    "greek": "επιθυμώ – ιστορία, η ευκαιρία, η",
+    "greek": "η ευκαιρία, η",
     "type": "noun"
   },
   {
@@ -10563,7 +10520,7 @@
     "english": "at the moment",
     "level": "A2",
     "greek": "αυτόν τον καιρό",
-    "type": "noun"
+    "type": "proverb"
   },
   {
     "english": "to burn",
@@ -10650,22 +10607,10 @@
     "type": "name"
   },
   {
-    "english": "Galerius arch",
-    "level": "A2",
-    "greek": "Καμάρα, η",
-    "type": "noun"
-  },
-  {
     "english": "channel, TV station",
     "level": "A2",
     "greek": "κανάλι, το",
     "type": "noun"
-  },
-  {
-    "english": "any, anybody, anyone",
-    "level": "A2",
-    "greek": "να",
-    "type": "preposition"
   },
   {
     "english": "normal, regular",
@@ -10683,7 +10628,7 @@
     "english": "How much does it cost?",
     "level": "A2",
     "greek": "Πόσο κάνει;",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "cardiologist",
@@ -10782,12 +10727,6 @@
     "type": "noun"
   },
   {
-    "english": "Katja",
-    "level": "A2",
-    "greek": "Κάτια, η",
-    "type": "name"
-  },
-  {
     "english": "pot, saucepan",
     "level": "A2",
     "greek": "κατσαρόλα, η",
@@ -10818,7 +10757,7 @@
     "type": "noun"
   },
   {
-    "english": "news",
+    "english": "news broadcast/program",
     "level": "A2",
     "greek": "κεντρικό δελτίο ειδήσεων",
     "type": "noun"
@@ -10932,12 +10871,6 @@
     "type": "noun"
   },
   {
-    "english": "Komotimi",
-    "level": "A2",
-    "greek": "Κομοτηνή, η",
-    "type": "name"
-  },
-  {
     "english": "top, peak",
     "level": "A2",
     "greek": "κορυφή, η",
@@ -11026,12 +10959,6 @@
     "level": "A2",
     "greek": "κρέμα, η",
     "type": "noun"
-  },
-  {
-    "english": "Cretan / from Crete",
-    "level": "A2",
-    "greek": "Κρητικ-ός́, -ό",
-    "type": "adjective"
   },
   {
     "english": "barley",
@@ -11150,7 +11077,7 @@
   {
     "english": "lemon",
     "level": "A2",
-    "greek": "λειτουργώ λεμόνι, το",
+    "greek": "λεμόνι, το",
     "type": "noun"
   },
   {
@@ -11158,12 +11085,6 @@
     "level": "A2",
     "greek": "λεπτομέρεια, η",
     "type": "noun"
-  },
-  {
-    "english": "White Tower",
-    "level": "A2",
-    "greek": "Λευκός Πύργος, ο",
-    "type": "country"
   },
   {
     "english": "money",
@@ -11190,18 +11111,6 @@
     "type": "adverb"
   },
   {
-    "english": "Abraham Lincoln",
-    "level": "A2",
-    "greek": "Λίνκον Αβραάμ, o",
-    "type": "noun"
-  },
-  {
-    "english": "Litsa",
-    "level": "A2",
-    "greek": "Λίτσα, η",
-    "type": "name"
-  },
-  {
     "english": "to melt",
     "level": "A2",
     "greek": "λιώνω",
@@ -11217,12 +11126,6 @@
     "english": "literature",
     "level": "A2",
     "greek": "λογοτεχνία, η",
-    "type": "noun"
-  },
-  {
-    "english": "Louvre",
-    "level": "A2",
-    "greek": "Λούβρο, το",
     "type": "noun"
   },
   {
@@ -11258,7 +11161,7 @@
   {
     "english": "with",
     "level": "A2",
-    "greek": "μαζί με",
+    "greek": "με",
     "type": "preposition"
   },
   {
@@ -11340,9 +11243,9 @@
     "type": "name"
   },
   {
-    "english": "model",
+    "english": "(car) model",
     "level": "A2",
-    "greek": "μάρκα αυτοκινήτου, η",
+    "greek": "μάρκα (αυτοκινήτου), η",
     "type": "noun"
   },
   {
@@ -11367,7 +11270,7 @@
     "english": "my name is",
     "level": "A2",
     "greek": "με λένε",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "to grow up, to grow old",
@@ -11460,12 +11363,6 @@
     "type": "noun"
   },
   {
-    "english": "Mirka",
-    "level": "A2",
-    "greek": "Μίρκα, η",
-    "type": "name"
-  },
-  {
     "english": "Michael",
     "level": "A2",
     "greek": "Μιχάλης, ο",
@@ -11484,7 +11381,7 @@
     "type": "noun"
   },
   {
-    "english": "unique, one of a kind, only",
+    "english": "unique, one of a kind",
     "level": "A2",
     "greek": "μοναδικ-ός, -ή, -ό",
     "type": "adjective"
@@ -11541,7 +11438,7 @@
     "english": "in front of",
     "level": "A2",
     "greek": "μπροστά από",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "beer",
@@ -11700,12 +11597,6 @@
     "type": "verb"
   },
   {
-    "english": "Xanthi",
-    "level": "A2",
-    "greek": "Ξάνθη, η",
-    "type": "country"
-  },
-  {
     "english": "blond",
     "level": "A2",
     "greek": "ξανθ-ός, -ή/-ιά, -ό",
@@ -11856,12 +11747,6 @@
     "type": "adverb"
   },
   {
-    "english": "Hellenic Telecommunications Organization",
-    "level": "A2",
-    "greek": "Τηλεπικοινωνιών Ελλάδος)",
-    "type": "noun"
-  },
-  {
     "english": "Oscar award",
     "level": "A2",
     "greek": "Όσκαρ βραβείο, το",
@@ -11889,12 +11774,6 @@
     "english": "before noon",
     "level": "A2",
     "greek": "π.μ.",
-    "type": "noun"
-  },
-  {
-    "english": "the three legs/fingers of the Chalkidiki peninsula",
-    "level": "A2",
-    "greek": "τρία πόδια Χαλκιδικής, τα",
     "type": "noun"
   },
   {
@@ -12099,13 +11978,7 @@
     "english": "something looks good on me, something suits me",
     "level": "A2",
     "greek": "μου πηγαίνει",
-    "type": "noun"
-  },
-  {
-    "english": "taxi rank, taxi stand",
-    "level": "A2",
-    "greek": "πιάτσα ταξί, η",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "certificate",
@@ -12117,7 +11990,7 @@
     "english": "I’ll be back",
     "level": "A2",
     "greek": "θα είμαι πίσω",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "planet",
@@ -12186,12 +12059,6 @@
     "type": "noun"
   },
   {
-    "english": "which",
-    "level": "A2",
-    "greek": "ποιον, ποια ποιος, -α, -ο",
-    "type": "adjective"
-  },
-  {
     "english": "quality",
     "level": "A2",
     "greek": "ποιότητα, η",
@@ -12231,7 +12098,7 @@
     "english": "to have a stomach ache",
     "level": "A2",
     "greek": "πονάει η κοιλιά μου",
-    "type": "verb"
+    "type": "phrase"
   },
   {
     "english": "headache",
@@ -12309,7 +12176,7 @@
     "english": "a while ago",
     "level": "A2",
     "greek": "πριν από λίγο (καιρό)",
-    "type": "noun"
+    "type": "preposition"
   },
   {
     "english": "screening",
@@ -12378,16 +12245,10 @@
     "type": "noun"
   },
   {
-    "english": "solid triangular shape, pyramid",
+    "english": "pyramid",
     "level": "A2",
     "greek": "πυραμίδα, η",
     "type": "noun"
-  },
-  {
-    "english": "Eiffer Tower",
-    "level": "A2",
-    "greek": "Πύργος του Άιφελ, ο",
-    "type": "country"
   },
   {
     "english": "fire department",
@@ -12399,7 +12260,7 @@
     "english": "What’s your name?",
     "level": "A2",
     "greek": "Πώς σε/σας λένε;",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "radio station",
@@ -12420,7 +12281,7 @@
     "type": "noun"
   },
   {
-    "english": "pedigree",
+    "english": "pedigree, breed",
     "level": "A2",
     "greek": "ράτσα ζώου, η",
     "type": "noun"
@@ -12462,13 +12323,7 @@
     "type": "name"
   },
   {
-    "english": "Shakespeare William",
-    "level": "A2",
-    "greek": "Σαίξπηρ Ουίλιαμ, o",
-    "type": "noun"
-  },
-  {
-    "english": "to put out",
+    "english": "to put out the fire",
     "level": "A2",
     "greek": "σβήνω τη φωτιά",
     "type": "verb"
@@ -12641,6 +12496,12 @@
     "greek": "στεναχωρημέν-ος, -η, -ο",
     "type": "adjective"
   },
+    {
+    "english": "to make smb sad, unhappy",
+    "level": "A2",
+    "greek": "στεναχωρώ",
+    "type": "verb"
+  },
   {
     "english": "narrow, tight",
     "level": "A2",
@@ -12780,7 +12641,7 @@
     "type": "noun"
   },
   {
-    "english": "garage",
+    "english": "service center, repair service",
     "level": "A2",
     "greek": "συνεργείο, το",
     "type": "noun"
@@ -12819,12 +12680,6 @@
     "english": "behaviour, attitude",
     "level": "A2",
     "greek": "συμπεριφορά, η",
-    "type": "noun"
-  },
-  {
-    "english": "Syntagma/Constitution Square",
-    "level": "A2",
-    "greek": "Πλατεία Συντάγματος, η",
     "type": "noun"
   },
   {
@@ -12888,12 +12743,6 @@
     "type": "adverb"
   },
   {
-    "english": "Sotiria",
-    "level": "A2",
-    "greek": "Σωτηρία, η",
-    "type": "country"
-  },
-  {
     "english": "tango",
     "level": "A2",
     "greek": "τάγκο, το",
@@ -12945,7 +12794,7 @@
     "english": "such",
     "level": "A2",
     "greek": "τέτοι-ος, -α, -ο",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "square metre",
@@ -13017,7 +12866,7 @@
     "english": "so/ that much",
     "level": "A2",
     "greek": "τόσ-ος, -η, -ο",
-    "type": "adjective"
+    "type": "pronoun"
   },
   {
     "english": "at least",
@@ -13410,7 +13259,7 @@
     "type": "noun"
   },
   {
-    "english": "high temperature lucky mercury thing] = material ingredient",
+    "english": "high temperature",
     "level": "A2",
     "greek": "υψηλή θερμοκρασία",
     "type": "noun"
@@ -13418,7 +13267,7 @@
   {
     "english": "dancer",
     "level": "A2",
-    "greek": "χορευτής, ο / χορεύτρια, η – ωστόσο χορευτής, ο / χορεύτρια, η",
+    "greek": "χορευτής, ο / χορεύτρια",
     "type": "noun"
   },
   {
@@ -13449,7 +13298,7 @@
     "english": "the phone is ringing",
     "level": "A2",
     "greek": "χτυπάει το τηλέφωνο",
-    "type": "noun"
+    "type": "phrase"
   },
   {
     "english": "separated, divorced",
@@ -13460,7 +13309,7 @@
   {
     "english": "fish",
     "level": "A2",
-    "greek": "ψι ψάρι, το / ψάρια, τα",
+    "greek": "ψάρι, το / ψάρια, τα",
     "type": "noun"
   },
   {
@@ -13650,22 +13499,10 @@
     "type": "adjective"
   },
   {
-    "english": "Capricorn",
-    "level": "B1",
-    "greek": "Αιγόκερως, ο/η",
-    "type": "noun"
-  },
-  {
     "english": "to bleed",
     "level": "B1",
     "greek": "αιμορραγώ",
     "type": "verb"
-  },
-  {
-    "english": "Einstein, Albert (a famous physicist)",
-    "level": "B1",
-    "greek": "Αινστάιν, Άλμπερτ, ο",
-    "type": "noun"
   },
   {
     "english": "feeling, emotion, sentiment",
@@ -13920,7 +13757,7 @@
     "type": "adverb"
   },
   {
-    "english": "train",
+    "english": "train (officially)",
     "level": "B1",
     "greek": "αμαξοστοιχία, η",
     "type": "noun"
@@ -13948,12 +13785,6 @@
     "level": "B1",
     "greek": "αμοιβαιότητα, η",
     "type": "noun"
-  },
-  {
-    "english": "Amorgos",
-    "level": "B1",
-    "greek": "Αμοργός, η",
-    "type": "name"
   },
   {
     "english": "almondshaped",
